@@ -34,7 +34,7 @@ EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 2 33
+Sheet 18 33
 Title "7x PowerBoard Test Frame"
 Date "2017-06-19"
 Rev ""
@@ -78,9 +78,9 @@ VOUT1
 Text Label 4200 1750 0    60   ~ 0
 VOUT_RTN1
 Text Label 4200 1950 0    60   ~ 0
-HV1
+HV_OUT1
 Text Label 4200 2100 0    60   ~ 0
-HVRTN1
+HV_OUT_RTN1
 Text Label 2650 2300 2    60   ~ 0
 BANDGAP1
 Text HLabel 1050 1100 0    60   Input ~ 0
@@ -212,7 +212,7 @@ Wire Wire Line
 Wire Wire Line
 	7850 5150 7750 5150
 Text HLabel 9600 3650 2    60   Output ~ 0
-HV_OUT[7..1]
+HV_OUT[1..7]
 Wire Bus Line
 	9600 3650 9450 3650
 Wire Bus Line
@@ -246,7 +246,7 @@ Wire Wire Line
 Wire Wire Line
 	9350 4250 9250 4250
 Text HLabel 9600 4550 2    60   Input ~ 0
-HV_OUT_RTN[7..1]
+HV_OUT_RTN[1..7]
 Wire Bus Line
 	9600 4550 9450 4550
 Wire Bus Line
@@ -279,34 +279,8 @@ Wire Wire Line
 	9350 5050 9250 5050
 Wire Wire Line
 	9350 5150 9250 5150
-Text Label 9250 4550 2    60   ~ 0
-HVRTN1
-Text Label 9250 4650 2    60   ~ 0
-HVRTN2
-Text Label 9250 4750 2    60   ~ 0
-HVRTN3
-Text Label 9250 4850 2    60   ~ 0
-HVRTN4
-Text Label 9250 4950 2    60   ~ 0
-HVRTN5
-Text Label 9250 5050 2    60   ~ 0
-HVRTN6
-Text Label 9250 5150 2    60   ~ 0
-HVRTN7
 Text Label 9250 3650 2    60   ~ 0
-HV1
-Text Label 9250 3750 2    60   ~ 0
-HV2
-Text Label 9250 3850 2    60   ~ 0
-HV3
-Text Label 9250 3950 2    60   ~ 0
-HV4
-Text Label 9250 4050 2    60   ~ 0
-HV5
-Text Label 9250 4150 2    60   ~ 0
-HV6
-Text Label 9250 4250 2    60   ~ 0
-HV7
+HV_OUT1
 Text HLabel 9600 5450 2    60   Output ~ 0
 BANDGAP[7..1]
 Wire Bus Line
@@ -388,9 +362,9 @@ Wire Wire Line
 Text Label 7800 2300 2    60   ~ 0
 BANDGAP7
 Text Label 9350 2100 0    60   ~ 0
-HVRTN7
+HV_OUT_RTN7
 Text Label 9350 1950 0    60   ~ 0
-HV7
+HV_OUT7
 Text Label 9350 1750 0    60   ~ 0
 VOUT_RTN7
 Text Label 9350 1600 0    60   ~ 0
@@ -427,9 +401,9 @@ $EndSheet
 Text Label 5200 2300 2    60   ~ 0
 BANDGAP4
 Text Label 6750 2100 0    60   ~ 0
-HVRTN4
+HV_OUT_RTN4
 Text Label 6750 1950 0    60   ~ 0
-HV4
+HV_OUT4
 Text Label 6750 1750 0    60   ~ 0
 VOUT_RTN4
 Text Label 6750 1600 0    60   ~ 0
@@ -554,9 +528,9 @@ Wire Wire Line
 Text Label 5250 5900 2    60   ~ 0
 BANDGAP6
 Text Label 6800 5700 0    60   ~ 0
-HVRTN6
+HV_OUT_RTN6
 Text Label 6800 5550 0    60   ~ 0
-HV6
+HV_OUT6
 Text Label 6800 5350 0    60   ~ 0
 VOUT_RTN6
 Text Label 6800 5200 0    60   ~ 0
@@ -593,9 +567,9 @@ $EndSheet
 Text Label 2700 5900 2    60   ~ 0
 BANDGAP3
 Text Label 4250 5700 0    60   ~ 0
-HVRTN3
+HV_OUT_RTN3
 Text Label 4250 5550 0    60   ~ 0
-HV3
+HV_OUT3
 Text Label 4250 5350 0    60   ~ 0
 VOUT_RTN3
 Text Label 4250 5200 0    60   ~ 0
@@ -632,9 +606,9 @@ $EndSheet
 Text Label 5200 4100 2    60   ~ 0
 BANDGAP5
 Text Label 6750 3900 0    60   ~ 0
-HVRTN5
+HV_OUT_RTN5
 Text Label 6750 3750 0    60   ~ 0
-HV5
+HV_OUT5
 Text Label 6750 3550 0    60   ~ 0
 VOUT_RTN5
 Text Label 6750 3400 0    60   ~ 0
@@ -671,9 +645,9 @@ $EndSheet
 Text Label 2650 4100 2    60   ~ 0
 BANDGAP2
 Text Label 4200 3900 0    60   ~ 0
-HVRTN2
+HV_OUT_RTN2
 Text Label 4200 3750 0    60   ~ 0
-HV2
+HV_OUT2
 Text Label 4200 3550 0    60   ~ 0
 VOUT_RTN2
 Text Label 4200 3400 0    60   ~ 0
@@ -747,4 +721,30 @@ Text Label 7750 5050 2    60   ~ 0
 VOUT_RTN6
 Text Label 7750 5150 2    60   ~ 0
 VOUT_RTN7
+Text Label 9250 3750 2    60   ~ 0
+HV_OUT2
+Text Label 9250 3850 2    60   ~ 0
+HV_OUT3
+Text Label 9250 3950 2    60   ~ 0
+HV_OUT4
+Text Label 9250 4050 2    60   ~ 0
+HV_OUT5
+Text Label 9250 4150 2    60   ~ 0
+HV_OUT6
+Text Label 9250 4250 2    60   ~ 0
+HV_OUT7
+Text Label 9250 4550 2    60   ~ 0
+HV_OUT_RTN1
+Text Label 9250 4650 2    60   ~ 0
+HV_OUT_RTN2
+Text Label 9250 4750 2    60   ~ 0
+HV_OUT_RTN3
+Text Label 9250 4850 2    60   ~ 0
+HV_OUT_RTN4
+Text Label 9250 4950 2    60   ~ 0
+HV_OUT_RTN5
+Text Label 9250 5050 2    60   ~ 0
+HV_OUT_RTN6
+Text Label 9250 5150 2    60   ~ 0
+HV_OUT_RTN7
 $EndSCHEMATC

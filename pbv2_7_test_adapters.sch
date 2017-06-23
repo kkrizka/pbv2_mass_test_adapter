@@ -1,0 +1,750 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:kk_conn
+LIBS:pbv2_mass_test_adapter-cache
+EELAYER 25 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 11 33
+Title "7x PowerBoard Test Frame"
+Date "2017-06-19"
+Rev ""
+Comp "Lawrence Berkeley National Laboratory"
+Comment1 "Karol Krizka"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 2800 1000 1300 1450
+U 594A8389
+F0 "sheet594A8374" 60
+F1 "pbv2_test_adapter.sch" 60
+F2 "I2C_SCL" I L 2800 1150 60 
+F3 "I2C_SDA" B L 2800 1300 60 
+F4 "VIN" I L 2800 1600 60 
+F5 "VIN_RTN" O L 2800 1750 60 
+F6 "HV_IN_RTN" O L 2800 2100 60 
+F7 "HV_IN" I L 2800 1950 60 
+F8 "BANDGAP" O L 2800 2300 60 
+F9 "VOUT_RTN" I R 4100 1750 60 
+F10 "VOUT" O R 4100 1600 60 
+F11 "HV_OUT" O R 4100 1950 60 
+F12 "HV_OUT_RTN" I R 4100 2100 60 
+$EndSheet
+Text Label 2700 1150 2    60   ~ 0
+I2C_SCL
+Text Label 2700 1300 2    60   ~ 0
+I2C_SDA
+Text Label 2650 1600 2    60   ~ 0
+VIN
+Text Label 2650 1750 2    60   ~ 0
+VIN_RTN
+Text Label 2650 1950 2    60   ~ 0
+HV_IN
+Text Label 2650 2100 2    60   ~ 0
+HV_IN_RTN
+Text Label 4200 1600 0    60   ~ 0
+V1
+Text Label 4200 1750 0    60   ~ 0
+VRTN1
+Text Label 4200 1950 0    60   ~ 0
+HV1
+Text Label 4200 2100 0    60   ~ 0
+HVRTN1
+Text Label 2650 2300 2    60   ~ 0
+BANDGAP1
+$Sheet
+S 5200 1000 1300 1450
+U 594A83CD
+F0 "sheet594A8375" 60
+F1 "pbv2_test_adapter.sch" 60
+F2 "I2C_SCL" I L 5200 1150 60 
+F3 "I2C_SDA" B L 5200 1300 60 
+F4 "VIN" I L 5200 1600 60 
+F5 "VIN_RTN" O L 5200 1750 60 
+F6 "HV_IN_RTN" O L 5200 2100 60 
+F7 "HV_IN" I L 5200 1950 60 
+F8 "BANDGAP" O L 5200 2300 60 
+F9 "VOUT_RTN" I R 6500 1750 60 
+F10 "VOUT" O R 6500 1600 60 
+F11 "HV_OUT" O R 6500 1950 60 
+F12 "HV_OUT_RTN" I R 6500 2100 60 
+$EndSheet
+Text Label 5100 1150 2    60   ~ 0
+I2C_SCL
+Text Label 5100 1300 2    60   ~ 0
+I2C_SDA
+Text Label 5050 1600 2    60   ~ 0
+VIN
+Text Label 5050 1750 2    60   ~ 0
+VIN_RTN
+Text Label 5050 1950 2    60   ~ 0
+HV_IN
+Text Label 5050 2100 2    60   ~ 0
+HV_IN_RTN
+Text Label 6600 1600 0    60   ~ 0
+V4
+Text Label 6600 1750 0    60   ~ 0
+VRTN4
+Text Label 6600 1950 0    60   ~ 0
+HV4
+Text Label 6600 2100 0    60   ~ 0
+HVRTN4
+Text Label 5050 2300 2    60   ~ 0
+BANDGAP4
+$Sheet
+S 2800 2800 1300 1450
+U 594A8411
+F0 "sheet594A8376" 60
+F1 "pbv2_test_adapter.sch" 60
+F2 "I2C_SCL" I L 2800 2950 60 
+F3 "I2C_SDA" B L 2800 3100 60 
+F4 "VIN" I L 2800 3400 60 
+F5 "VIN_RTN" O L 2800 3550 60 
+F6 "HV_IN_RTN" O L 2800 3900 60 
+F7 "HV_IN" I L 2800 3750 60 
+F8 "BANDGAP" O L 2800 4100 60 
+F9 "VOUT_RTN" I R 4100 3550 60 
+F10 "VOUT" O R 4100 3400 60 
+F11 "HV_OUT" O R 4100 3750 60 
+F12 "HV_OUT_RTN" I R 4100 3900 60 
+$EndSheet
+Text Label 2700 2950 2    60   ~ 0
+I2C_SCL
+Text Label 2700 3100 2    60   ~ 0
+I2C_SDA
+Text Label 2650 3400 2    60   ~ 0
+VIN
+Text Label 2650 3550 2    60   ~ 0
+VIN_RTN
+Text Label 2650 3750 2    60   ~ 0
+HV_IN
+Text Label 2650 3900 2    60   ~ 0
+HV_IN_RTN
+Text Label 4200 3400 0    60   ~ 0
+V2
+Text Label 4200 3550 0    60   ~ 0
+VRTN2
+Text Label 4200 3750 0    60   ~ 0
+HV2
+Text Label 4200 3900 0    60   ~ 0
+HVRTN2
+Text Label 2650 4100 2    60   ~ 0
+BANDGAP2
+$Sheet
+S 5200 2800 1300 1450
+U 594A8455
+F0 "sheet594A8377" 60
+F1 "pbv2_test_adapter.sch" 60
+F2 "I2C_SCL" I L 5200 2950 60 
+F3 "I2C_SDA" B L 5200 3100 60 
+F4 "VIN" I L 5200 3400 60 
+F5 "VIN_RTN" O L 5200 3550 60 
+F6 "HV_IN_RTN" O L 5200 3900 60 
+F7 "HV_IN" I L 5200 3750 60 
+F8 "BANDGAP" O L 5200 4100 60 
+F9 "VOUT_RTN" I R 6500 3550 60 
+F10 "VOUT" O R 6500 3400 60 
+F11 "HV_OUT" O R 6500 3750 60 
+F12 "HV_OUT_RTN" I R 6500 3900 60 
+$EndSheet
+Text Label 5100 2950 2    60   ~ 0
+I2C_SCL
+Text Label 5100 3100 2    60   ~ 0
+I2C_SDA
+Text Label 5050 3400 2    60   ~ 0
+VIN
+Text Label 5050 3550 2    60   ~ 0
+VIN_RTN
+Text Label 5050 3750 2    60   ~ 0
+HV_IN
+Text Label 5050 3900 2    60   ~ 0
+HV_IN_RTN
+Text Label 6600 3400 0    60   ~ 0
+V5
+Text Label 6600 3550 0    60   ~ 0
+VRTN5
+Text Label 6600 3750 0    60   ~ 0
+HV5
+Text Label 6600 3900 0    60   ~ 0
+HVRTN5
+Text Label 5050 4100 2    60   ~ 0
+BANDGAP5
+$Sheet
+S 7600 1000 1300 1450
+U 594A8499
+F0 "sheet594A8378" 60
+F1 "pbv2_test_adapter.sch" 60
+F2 "I2C_SCL" I L 7600 1150 60 
+F3 "I2C_SDA" B L 7600 1300 60 
+F4 "VIN" I L 7600 1600 60 
+F5 "VIN_RTN" O L 7600 1750 60 
+F6 "HV_IN_RTN" O L 7600 2100 60 
+F7 "HV_IN" I L 7600 1950 60 
+F8 "BANDGAP" O L 7600 2300 60 
+F9 "VOUT_RTN" I R 8900 1750 60 
+F10 "VOUT" O R 8900 1600 60 
+F11 "HV_OUT" O R 8900 1950 60 
+F12 "HV_OUT_RTN" I R 8900 2100 60 
+$EndSheet
+Text Label 7500 1150 2    60   ~ 0
+I2C_SCL
+Text Label 7500 1300 2    60   ~ 0
+I2C_SDA
+Text Label 7450 1600 2    60   ~ 0
+VIN
+Text Label 7450 1750 2    60   ~ 0
+VIN_RTN
+Text Label 7450 1950 2    60   ~ 0
+HV_IN
+Text Label 7450 2100 2    60   ~ 0
+HV_IN_RTN
+Text Label 9000 1600 0    60   ~ 0
+V7
+Text Label 9000 1750 0    60   ~ 0
+VRTN7
+Text Label 9000 1950 0    60   ~ 0
+HV7
+Text Label 9000 2100 0    60   ~ 0
+HVRTN7
+Text Label 7450 2300 2    60   ~ 0
+BANDGAP7
+$Sheet
+S 2850 4600 1300 1450
+U 594A8521
+F0 "sheet594A837A" 60
+F1 "pbv2_test_adapter.sch" 60
+F2 "I2C_SCL" I L 2850 4750 60 
+F3 "I2C_SDA" B L 2850 4900 60 
+F4 "VIN" I L 2850 5200 60 
+F5 "VIN_RTN" O L 2850 5350 60 
+F6 "HV_IN_RTN" O L 2850 5700 60 
+F7 "HV_IN" I L 2850 5550 60 
+F8 "BANDGAP" O L 2850 5900 60 
+F9 "VOUT_RTN" I R 4150 5350 60 
+F10 "VOUT" O R 4150 5200 60 
+F11 "HV_OUT" O R 4150 5550 60 
+F12 "HV_OUT_RTN" I R 4150 5700 60 
+$EndSheet
+Text Label 2750 4750 2    60   ~ 0
+I2C_SCL
+Text Label 2750 4900 2    60   ~ 0
+I2C_SDA
+Text Label 2700 5200 2    60   ~ 0
+VIN
+Text Label 2700 5350 2    60   ~ 0
+VIN_RTN
+Text Label 2700 5550 2    60   ~ 0
+HV_IN
+Text Label 2700 5700 2    60   ~ 0
+HV_IN_RTN
+Text Label 4250 5200 0    60   ~ 0
+V3
+Text Label 4250 5350 0    60   ~ 0
+VRTN3
+Text Label 4250 5550 0    60   ~ 0
+HV3
+Text Label 4250 5700 0    60   ~ 0
+HVRTN3
+Text Label 2700 5900 2    60   ~ 0
+BANDGAP3
+$Sheet
+S 5250 4600 1300 1450
+U 594A8565
+F0 "sheet594A837B" 60
+F1 "pbv2_test_adapter.sch" 60
+F2 "I2C_SCL" I L 5250 4750 60 
+F3 "I2C_SDA" B L 5250 4900 60 
+F4 "VIN" I L 5250 5200 60 
+F5 "VIN_RTN" O L 5250 5350 60 
+F6 "HV_IN_RTN" O L 5250 5700 60 
+F7 "HV_IN" I L 5250 5550 60 
+F8 "BANDGAP" O L 5250 5900 60 
+F9 "VOUT_RTN" I R 6550 5350 60 
+F10 "VOUT" O R 6550 5200 60 
+F11 "HV_OUT" O R 6550 5550 60 
+F12 "HV_OUT_RTN" I R 6550 5700 60 
+$EndSheet
+Text Label 5150 4750 2    60   ~ 0
+I2C_SCL
+Text Label 5150 4900 2    60   ~ 0
+I2C_SDA
+Text Label 5100 5200 2    60   ~ 0
+VIN
+Text Label 5100 5350 2    60   ~ 0
+VIN_RTN
+Text Label 5100 5550 2    60   ~ 0
+HV_IN
+Text Label 5100 5700 2    60   ~ 0
+HV_IN_RTN
+Text Label 6650 5200 0    60   ~ 0
+V6
+Text Label 6650 5350 0    60   ~ 0
+VRTN6
+Text Label 6650 5550 0    60   ~ 0
+HV6
+Text Label 6650 5700 0    60   ~ 0
+HVRTN6
+Text Label 5100 5900 2    60   ~ 0
+BANDGAP6
+Text HLabel 1050 1100 0    60   Input ~ 0
+I2C_SCL
+Text HLabel 1050 1300 0    60   BiDi ~ 0
+I2C_SDA
+Text Label 1200 1100 0    60   ~ 0
+I2C_SCL
+Text Label 1200 1300 0    60   ~ 0
+I2C_SDA
+Text HLabel 1050 2100 0    60   Input ~ 0
+HV_IN
+Text HLabel 1050 2300 0    60   Output ~ 0
+HV_IN_RTN
+Text HLabel 1050 1650 0    60   Input ~ 0
+VIN
+Text HLabel 1050 1850 0    60   Output ~ 0
+VIN_RTN
+Text Label 1200 1650 0    60   ~ 0
+VIN
+Text Label 1200 1850 0    60   ~ 0
+VIN_RTN
+Text Label 1200 2100 0    60   ~ 0
+HV_IN
+Text Label 1200 2300 0    60   ~ 0
+HV_IN_RTN
+Text HLabel 7950 3650 2    60   Output ~ 0
+VOUT[7..1]
+Wire Wire Line
+	2800 1150 2600 1150
+Wire Wire Line
+	2800 1300 2600 1300
+Wire Wire Line
+	2800 1600 2600 1600
+Wire Wire Line
+	2800 1750 2600 1750
+Wire Wire Line
+	2800 1950 2600 1950
+Wire Wire Line
+	2800 2100 2600 2100
+Wire Wire Line
+	4100 1600 4350 1600
+Wire Wire Line
+	4100 1750 4350 1750
+Wire Wire Line
+	4100 1950 4350 1950
+Wire Wire Line
+	4100 2100 4350 2100
+Wire Wire Line
+	2800 2300 2600 2300
+Wire Wire Line
+	5200 1150 5000 1150
+Wire Wire Line
+	5200 1300 5000 1300
+Wire Wire Line
+	5200 1600 5000 1600
+Wire Wire Line
+	5200 1750 5000 1750
+Wire Wire Line
+	5200 1950 5000 1950
+Wire Wire Line
+	5200 2100 5000 2100
+Wire Wire Line
+	6500 1600 6750 1600
+Wire Wire Line
+	6500 1750 6750 1750
+Wire Wire Line
+	6500 1950 6750 1950
+Wire Wire Line
+	6500 2100 6750 2100
+Wire Wire Line
+	5200 2300 5000 2300
+Wire Wire Line
+	2800 2950 2600 2950
+Wire Wire Line
+	2800 3100 2600 3100
+Wire Wire Line
+	2800 3400 2600 3400
+Wire Wire Line
+	2800 3550 2600 3550
+Wire Wire Line
+	2800 3750 2600 3750
+Wire Wire Line
+	2800 3900 2600 3900
+Wire Wire Line
+	4100 3400 4350 3400
+Wire Wire Line
+	4100 3550 4350 3550
+Wire Wire Line
+	4100 3750 4350 3750
+Wire Wire Line
+	4100 3900 4350 3900
+Wire Wire Line
+	2800 4100 2600 4100
+Wire Wire Line
+	5200 2950 5000 2950
+Wire Wire Line
+	5200 3100 5000 3100
+Wire Wire Line
+	5200 3400 5000 3400
+Wire Wire Line
+	5200 3550 5000 3550
+Wire Wire Line
+	5200 3750 5000 3750
+Wire Wire Line
+	5200 3900 5000 3900
+Wire Wire Line
+	6500 3400 6750 3400
+Wire Wire Line
+	6500 3550 6750 3550
+Wire Wire Line
+	6500 3750 6750 3750
+Wire Wire Line
+	6500 3900 6750 3900
+Wire Wire Line
+	5200 4100 5000 4100
+Wire Wire Line
+	7600 1150 7400 1150
+Wire Wire Line
+	7600 1300 7400 1300
+Wire Wire Line
+	7600 1600 7400 1600
+Wire Wire Line
+	7600 1750 7400 1750
+Wire Wire Line
+	7600 1950 7400 1950
+Wire Wire Line
+	7600 2100 7400 2100
+Wire Wire Line
+	8900 1600 9150 1600
+Wire Wire Line
+	8900 1750 9150 1750
+Wire Wire Line
+	8900 1950 9150 1950
+Wire Wire Line
+	8900 2100 9150 2100
+Wire Wire Line
+	7600 2300 7400 2300
+Wire Wire Line
+	2850 4750 2650 4750
+Wire Wire Line
+	2850 4900 2650 4900
+Wire Wire Line
+	2850 5200 2650 5200
+Wire Wire Line
+	2850 5350 2650 5350
+Wire Wire Line
+	2850 5550 2650 5550
+Wire Wire Line
+	2850 5700 2650 5700
+Wire Wire Line
+	4150 5200 4400 5200
+Wire Wire Line
+	4150 5350 4400 5350
+Wire Wire Line
+	4150 5550 4400 5550
+Wire Wire Line
+	4150 5700 4400 5700
+Wire Wire Line
+	2850 5900 2650 5900
+Wire Wire Line
+	5250 4750 5050 4750
+Wire Wire Line
+	5250 4900 5050 4900
+Wire Wire Line
+	5250 5200 5050 5200
+Wire Wire Line
+	5250 5350 5050 5350
+Wire Wire Line
+	5250 5550 5050 5550
+Wire Wire Line
+	5250 5700 5050 5700
+Wire Wire Line
+	6550 5200 6800 5200
+Wire Wire Line
+	6550 5350 6800 5350
+Wire Wire Line
+	6550 5550 6800 5550
+Wire Wire Line
+	6550 5700 6800 5700
+Wire Wire Line
+	5250 5900 5050 5900
+Wire Wire Line
+	1050 1100 1300 1100
+Wire Wire Line
+	1050 1300 1300 1300
+Wire Wire Line
+	1050 1650 1300 1650
+Wire Wire Line
+	1050 1850 1300 1850
+Wire Wire Line
+	1050 2100 1300 2100
+Wire Wire Line
+	1050 2300 1300 2300
+Wire Bus Line
+	7950 3650 7800 3650
+Wire Bus Line
+	7800 3650 7800 4350
+Entry Wire Line
+	7700 3650 7800 3750
+Entry Wire Line
+	7700 3750 7800 3850
+Entry Wire Line
+	7700 3850 7800 3950
+Entry Wire Line
+	7700 3950 7800 4050
+Entry Wire Line
+	7700 4050 7800 4150
+Entry Wire Line
+	7700 4150 7800 4250
+Entry Wire Line
+	7700 4250 7800 4350
+Wire Wire Line
+	7700 3650 7600 3650
+Wire Wire Line
+	7700 3750 7600 3750
+Wire Wire Line
+	7700 3850 7600 3850
+Wire Wire Line
+	7700 3950 7600 3950
+Wire Wire Line
+	7700 4050 7600 4050
+Wire Wire Line
+	7700 4150 7600 4150
+Wire Wire Line
+	7700 4250 7600 4250
+Text Label 7600 3650 2    60   ~ 0
+V1
+Text Label 7600 3750 2    60   ~ 0
+V2
+Text Label 7600 3850 2    60   ~ 0
+V3
+Text Label 7600 3950 2    60   ~ 0
+V4
+Text Label 7600 4050 2    60   ~ 0
+V5
+Text Label 7600 4150 2    60   ~ 0
+V6
+Text Label 7600 4250 2    60   ~ 0
+V7
+Text HLabel 7950 4550 2    60   Output ~ 0
+VOUT_RTN[7..1]
+Wire Bus Line
+	7950 4550 7800 4550
+Wire Bus Line
+	7800 4550 7800 5250
+Entry Wire Line
+	7700 4550 7800 4650
+Entry Wire Line
+	7700 4650 7800 4750
+Entry Wire Line
+	7700 4750 7800 4850
+Entry Wire Line
+	7700 4850 7800 4950
+Entry Wire Line
+	7700 4950 7800 5050
+Entry Wire Line
+	7700 5050 7800 5150
+Entry Wire Line
+	7700 5150 7800 5250
+Wire Wire Line
+	7700 4550 7600 4550
+Wire Wire Line
+	7700 4650 7600 4650
+Wire Wire Line
+	7700 4750 7600 4750
+Wire Wire Line
+	7700 4850 7600 4850
+Wire Wire Line
+	7700 4950 7600 4950
+Wire Wire Line
+	7700 5050 7600 5050
+Wire Wire Line
+	7700 5150 7600 5150
+Text HLabel 9600 3650 2    60   Output ~ 0
+HV_OUT[7..1]
+Wire Bus Line
+	9600 3650 9450 3650
+Wire Bus Line
+	9450 3650 9450 4350
+Entry Wire Line
+	9350 3650 9450 3750
+Entry Wire Line
+	9350 3750 9450 3850
+Entry Wire Line
+	9350 3850 9450 3950
+Entry Wire Line
+	9350 3950 9450 4050
+Entry Wire Line
+	9350 4050 9450 4150
+Entry Wire Line
+	9350 4150 9450 4250
+Entry Wire Line
+	9350 4250 9450 4350
+Wire Wire Line
+	9350 3650 9250 3650
+Wire Wire Line
+	9350 3750 9250 3750
+Wire Wire Line
+	9350 3850 9250 3850
+Wire Wire Line
+	9350 3950 9250 3950
+Wire Wire Line
+	9350 4050 9250 4050
+Wire Wire Line
+	9350 4150 9250 4150
+Wire Wire Line
+	9350 4250 9250 4250
+Text HLabel 9600 4550 2    60   Output ~ 0
+HV_OUT_RTN[7..1]
+Wire Bus Line
+	9600 4550 9450 4550
+Wire Bus Line
+	9450 4550 9450 5250
+Entry Wire Line
+	9350 4550 9450 4650
+Entry Wire Line
+	9350 4650 9450 4750
+Entry Wire Line
+	9350 4750 9450 4850
+Entry Wire Line
+	9350 4850 9450 4950
+Entry Wire Line
+	9350 4950 9450 5050
+Entry Wire Line
+	9350 5050 9450 5150
+Entry Wire Line
+	9350 5150 9450 5250
+Wire Wire Line
+	9350 4550 9250 4550
+Wire Wire Line
+	9350 4650 9250 4650
+Wire Wire Line
+	9350 4750 9250 4750
+Wire Wire Line
+	9350 4850 9250 4850
+Wire Wire Line
+	9350 4950 9250 4950
+Wire Wire Line
+	9350 5050 9250 5050
+Wire Wire Line
+	9350 5150 9250 5150
+Text Label 9250 4550 2    60   ~ 0
+HVRTN1
+Text Label 9250 4650 2    60   ~ 0
+HVRTN2
+Text Label 9250 4750 2    60   ~ 0
+HVRTN3
+Text Label 9250 4850 2    60   ~ 0
+HVRTN4
+Text Label 9250 4950 2    60   ~ 0
+HVRTN5
+Text Label 9250 5050 2    60   ~ 0
+HVRTN6
+Text Label 9250 5150 2    60   ~ 0
+HVRTN7
+Text Label 7600 5150 2    60   ~ 0
+VRTN7
+Text Label 7600 5050 2    60   ~ 0
+VRTN6
+Text Label 7600 4950 2    60   ~ 0
+VRTN5
+Text Label 7600 4850 2    60   ~ 0
+VRTN4
+Text Label 7600 4750 2    60   ~ 0
+VRTN3
+Text Label 7600 4650 2    60   ~ 0
+VRTN2
+Text Label 7600 4550 2    60   ~ 0
+VRTN1
+Text Label 9250 3650 2    60   ~ 0
+HV1
+Text Label 9250 3750 2    60   ~ 0
+HV2
+Text Label 9250 3850 2    60   ~ 0
+HV3
+Text Label 9250 3950 2    60   ~ 0
+HV4
+Text Label 9250 4050 2    60   ~ 0
+HV5
+Text Label 9250 4150 2    60   ~ 0
+HV6
+Text Label 9250 4250 2    60   ~ 0
+HV7
+Text HLabel 9600 5450 2    60   Output ~ 0
+BANDGAP[7..1]
+Wire Bus Line
+	9600 5450 9450 5450
+Wire Bus Line
+	9450 5450 9450 6150
+Entry Wire Line
+	9350 5450 9450 5550
+Entry Wire Line
+	9350 5550 9450 5650
+Entry Wire Line
+	9350 5650 9450 5750
+Entry Wire Line
+	9350 5750 9450 5850
+Entry Wire Line
+	9350 5850 9450 5950
+Entry Wire Line
+	9350 5950 9450 6050
+Entry Wire Line
+	9350 6050 9450 6150
+Wire Wire Line
+	9350 5450 9250 5450
+Wire Wire Line
+	9350 5550 9250 5550
+Wire Wire Line
+	9350 5650 9250 5650
+Wire Wire Line
+	9350 5750 9250 5750
+Wire Wire Line
+	9350 5850 9250 5850
+Wire Wire Line
+	9350 5950 9250 5950
+Wire Wire Line
+	9350 6050 9250 6050
+Text Label 9250 5450 2    60   ~ 0
+BANDGAP1
+Text Label 9250 5550 2    60   ~ 0
+BANDGAP2
+Text Label 9250 5650 2    60   ~ 0
+BANDGAP3
+Text Label 9250 5750 2    60   ~ 0
+BANDGAP4
+Text Label 9250 5850 2    60   ~ 0
+BANDGAP5
+Text Label 9250 5950 2    60   ~ 0
+BANDGAP6
+Text Label 9250 6050 2    60   ~ 0
+BANDGAP7
+$EndSCHEMATC

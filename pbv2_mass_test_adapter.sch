@@ -45,10 +45,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CONN_01X04 P1
+L CONN_01X04 P2
 U 1 1 59484F40
 P 800 1050
-F 0 "P1" H 800 1300 50  0000 C CNN
+F 0 "P2" H 800 1300 50  0000 C CNN
 F 1 "CONN_01X04" V 900 1050 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 800 1050 50  0001 C CNN
 F 3 "" H 800 1050 50  0001 C CNN
@@ -86,10 +86,10 @@ F 3 "" H 1850 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X04 P2
+L CONN_01X04 P1
 U 1 1 5948AEC8
 P 800 1800
-F 0 "P2" H 800 2050 50  0000 C CNN
+F 0 "P1" H 800 2050 50  0000 C CNN
 F 1 "CONN_01X04" V 900 1800 50  0000 C CNN
 F 2 "Connectors_Molex:Molex_MegaFit_2x02x5.70mm_Angled" H 800 1800 50  0001 C CNN
 F 3 "" H 800 1800 50  0001 C CNN
@@ -237,10 +237,10 @@ VOUT_RTNc[1..7]
 Text Label 5100 7550 0    60   ~ 0
 VOUT_RTNd[1..7]
 $Comp
-L LEMO2 J2
+L LEMO2 J1
 U 1 1 595266E9
 P 850 2650
-F 0 "J2" H 850 2850 50  0000 C CNN
+F 0 "J1" H 850 2850 50  0000 C CNN
 F 1 "LEMO2" H 850 2450 50  0000 C CNN
 F 2 "Connectors:bnc-ci" H 850 2650 50  0001 C CNN
 F 3 "" H 850 2650 50  0001 C CNN
@@ -405,73 +405,983 @@ Wire Bus Line
 Wire Bus Line
 	4950 8150 5100 8150
 $Comp
-L CONN_02X03 J1
+L CONN_02X03 J11
 U 1 1 599246DE
 P 7900 1450
-F 0 "J1" H 7900 1650 50  0000 C CNN
+F 0 "J11" H 7900 1650 50  0000 C CNN
 F 1 "CONN_02X03" H 7900 1250 50  0000 C CNN
 F 2 "Connectors_Molex:Molex_MegaFit_2x03x5.70mm_Straight" H 7900 250 50  0001 C CNN
 F 3 "" H 7900 250 50  0001 C CNN
 	1    7900 1450
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	8250 1350 8150 1350
-Text Label 8250 1350 0    60   ~ 0
+	7550 1350 7650 1350
+Text Label 7550 1350 2    60   ~ 0
 BANDGAPa1
 Wire Wire Line
-	7650 1350 7550 1350
-Wire Wire Line
-	8150 1450 8250 1450
-Wire Wire Line
-	8150 1550 8250 1550
+	8150 1350 8250 1350
 Wire Wire Line
 	7650 1450 7550 1450
 Wire Wire Line
 	7650 1550 7550 1550
-Text Label 8250 1450 0    60   ~ 0
-VOUT_RTNa1
-Text Label 8250 1550 0    60   ~ 0
-HV_OUTa1
-Text Label 7550 1350 2    60   ~ 0
-VOUTa1
-Text Label 7550 1550 2    60   ~ 0
-VIN_RTN
+Wire Wire Line
+	8150 1450 8250 1450
+Wire Wire Line
+	8150 1550 8250 1550
 Text Label 7550 1450 2    60   ~ 0
+VOUT_RTNa1
+Text Label 7550 1550 2    60   ~ 0
+HV_OUTa1
+Text Label 8250 1350 0    60   ~ 0
+VOUTa1
+Text Label 8250 1550 0    60   ~ 0
+VIN_RTN
+Text Label 8250 1450 0    60   ~ 0
 HV_OUT_RTNa1
 $Comp
-L CONN_02X03 J3
+L CONN_02X03 J12
 U 1 1 5992EACF
 P 7900 1950
-F 0 "J3" H 7900 2150 50  0000 C CNN
+F 0 "J12" H 7900 2150 50  0000 C CNN
 F 1 "CONN_02X03" H 7900 1750 50  0000 C CNN
 F 2 "Connectors_Molex:Molex_MegaFit_2x03x5.70mm_Straight" H 7900 750 50  0001 C CNN
 F 3 "" H 7900 750 50  0001 C CNN
 	1    7900 1950
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	8250 1850 8150 1850
-Text Label 8250 1850 0    60   ~ 0
+	7550 1850 7650 1850
+Text Label 7550 1850 2    60   ~ 0
 BANDGAPa2
 Wire Wire Line
-	7650 1850 7550 1850
-Wire Wire Line
-	8150 1950 8250 1950
-Wire Wire Line
-	8150 2050 8250 2050
+	8150 1850 8250 1850
 Wire Wire Line
 	7650 1950 7550 1950
 Wire Wire Line
 	7650 2050 7550 2050
-Text Label 8250 1950 0    60   ~ 0
-VOUT_RTNa2
-Text Label 8250 2050 0    60   ~ 0
-HV_OUTa2
-Text Label 7550 1850 2    60   ~ 0
-VOUTa2
-Text Label 7550 2050 2    60   ~ 0
-VIN_RTN
+Wire Wire Line
+	8150 1950 8250 1950
+Wire Wire Line
+	8150 2050 8250 2050
 Text Label 7550 1950 2    60   ~ 0
+VOUT_RTNa2
+Text Label 7550 2050 2    60   ~ 0
+HV_OUTa2
+Text Label 8250 1850 0    60   ~ 0
+VOUTa2
+Text Label 8250 2050 0    60   ~ 0
+VIN_RTN
+Text Label 8250 1950 0    60   ~ 0
 HV_OUT_RTNa2
+$Comp
+L CONN_02X03 J13
+U 1 1 599257AF
+P 7900 2450
+F 0 "J13" H 7900 2650 50  0000 C CNN
+F 1 "CONN_02X03" H 7900 2250 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_MegaFit_2x03x5.70mm_Straight" H 7900 1250 50  0001 C CNN
+F 3 "" H 7900 1250 50  0001 C CNN
+	1    7900 2450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 2350 7650 2350
+Text Label 7550 2350 2    60   ~ 0
+BANDGAPa3
+Wire Wire Line
+	8150 2350 8250 2350
+Wire Wire Line
+	7650 2450 7550 2450
+Wire Wire Line
+	7650 2550 7550 2550
+Wire Wire Line
+	8150 2450 8250 2450
+Wire Wire Line
+	8150 2550 8250 2550
+Text Label 7550 2450 2    60   ~ 0
+VOUT_RTNa3
+Text Label 7550 2550 2    60   ~ 0
+HV_OUTa3
+Text Label 8250 2350 0    60   ~ 0
+VOUTa3
+Text Label 8250 2550 0    60   ~ 0
+VIN_RTN
+Text Label 8250 2450 0    60   ~ 0
+HV_OUT_RTNa3
+$Comp
+L CONN_02X03 J14
+U 1 1 599257C1
+P 7900 2950
+F 0 "J14" H 7900 3150 50  0000 C CNN
+F 1 "CONN_02X03" H 7900 2750 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_MegaFit_2x03x5.70mm_Straight" H 7900 1750 50  0001 C CNN
+F 3 "" H 7900 1750 50  0001 C CNN
+	1    7900 2950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 2850 7650 2850
+Text Label 7550 2850 2    60   ~ 0
+BANDGAPa4
+Wire Wire Line
+	8150 2850 8250 2850
+Wire Wire Line
+	7650 2950 7550 2950
+Wire Wire Line
+	7650 3050 7550 3050
+Wire Wire Line
+	8150 2950 8250 2950
+Wire Wire Line
+	8150 3050 8250 3050
+Text Label 7550 2950 2    60   ~ 0
+VOUT_RTNa4
+Text Label 7550 3050 2    60   ~ 0
+HV_OUTa4
+Text Label 8250 2850 0    60   ~ 0
+VOUTa4
+Text Label 8250 3050 0    60   ~ 0
+VIN_RTN
+Text Label 8250 2950 0    60   ~ 0
+HV_OUT_RTNa4
+$Comp
+L CONN_02X03 J15
+U 1 1 59925099
+P 7900 3450
+F 0 "J15" H 7900 3650 50  0000 C CNN
+F 1 "CONN_02X03" H 7900 3250 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_MegaFit_2x03x5.70mm_Straight" H 7900 2250 50  0001 C CNN
+F 3 "" H 7900 2250 50  0001 C CNN
+	1    7900 3450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 3350 7650 3350
+Text Label 7550 3350 2    60   ~ 0
+BANDGAPa5
+Wire Wire Line
+	8150 3350 8250 3350
+Wire Wire Line
+	7650 3450 7550 3450
+Wire Wire Line
+	7650 3550 7550 3550
+Wire Wire Line
+	8150 3450 8250 3450
+Wire Wire Line
+	8150 3550 8250 3550
+Text Label 7550 3450 2    60   ~ 0
+VOUT_RTNa5
+Text Label 7550 3550 2    60   ~ 0
+HV_OUTa5
+Text Label 8250 3350 0    60   ~ 0
+VOUTa5
+Text Label 8250 3550 0    60   ~ 0
+VIN_RTN
+Text Label 8250 3450 0    60   ~ 0
+HV_OUT_RTNa5
+$Comp
+L CONN_02X03 J16
+U 1 1 599250AB
+P 7900 3950
+F 0 "J16" H 7900 4150 50  0000 C CNN
+F 1 "CONN_02X03" H 7900 3750 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_MegaFit_2x03x5.70mm_Straight" H 7900 2750 50  0001 C CNN
+F 3 "" H 7900 2750 50  0001 C CNN
+	1    7900 3950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 3850 7650 3850
+Text Label 7550 3850 2    60   ~ 0
+BANDGAPa6
+Wire Wire Line
+	8150 3850 8250 3850
+Wire Wire Line
+	7650 3950 7550 3950
+Wire Wire Line
+	7650 4050 7550 4050
+Wire Wire Line
+	8150 3950 8250 3950
+Wire Wire Line
+	8150 4050 8250 4050
+Text Label 7550 3950 2    60   ~ 0
+VOUT_RTNa6
+Text Label 7550 4050 2    60   ~ 0
+HV_OUTa6
+Text Label 8250 3850 0    60   ~ 0
+VOUTa6
+Text Label 8250 4050 0    60   ~ 0
+VIN_RTN
+Text Label 8250 3950 0    60   ~ 0
+HV_OUT_RTNa6
+$Comp
+L CONN_02X03 J17
+U 1 1 599250BD
+P 7900 4450
+F 0 "J17" H 7900 4650 50  0000 C CNN
+F 1 "CONN_02X03" H 7900 4250 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_MegaFit_2x03x5.70mm_Straight" H 7900 3250 50  0001 C CNN
+F 3 "" H 7900 3250 50  0001 C CNN
+	1    7900 4450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 4350 7650 4350
+Text Label 7550 4350 2    60   ~ 0
+BANDGAPa7
+Wire Wire Line
+	8150 4350 8250 4350
+Wire Wire Line
+	7650 4450 7550 4450
+Wire Wire Line
+	7650 4550 7550 4550
+Wire Wire Line
+	8150 4450 8250 4450
+Wire Wire Line
+	8150 4550 8250 4550
+Text Label 7550 4450 2    60   ~ 0
+VOUT_RTNa7
+Text Label 7550 4550 2    60   ~ 0
+HV_OUTa7
+Text Label 8250 4350 0    60   ~ 0
+VOUTa7
+Text Label 8250 4550 0    60   ~ 0
+VIN_RTN
+Text Label 8250 4450 0    60   ~ 0
+HV_OUT_RTNa7
+$Comp
+L CONN_02X03 J21
+U 1 1 5993303B
+P 10000 1450
+F 0 "J21" H 10000 1650 50  0000 C CNN
+F 1 "CONN_02X03" H 10000 1250 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_MegaFit_2x03x5.70mm_Straight" H 10000 250 50  0001 C CNN
+F 3 "" H 10000 250 50  0001 C CNN
+	1    10000 1450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 1350 9750 1350
+Text Label 9650 1350 2    60   ~ 0
+BANDGAPb1
+Wire Wire Line
+	10250 1350 10350 1350
+Wire Wire Line
+	9750 1450 9650 1450
+Wire Wire Line
+	9750 1550 9650 1550
+Wire Wire Line
+	10250 1450 10350 1450
+Wire Wire Line
+	10250 1550 10350 1550
+Text Label 9650 1450 2    60   ~ 0
+VOUT_RTNb1
+Text Label 9650 1550 2    60   ~ 0
+HV_OUTa1
+Text Label 10350 1350 0    60   ~ 0
+VOUTa1
+Text Label 10350 1550 0    60   ~ 0
+VIN_RTN
+Text Label 10350 1450 0    60   ~ 0
+HV_OUT_RTNa1
+$Comp
+L CONN_02X03 J22
+U 1 1 5993304D
+P 10000 1950
+F 0 "J22" H 10000 2150 50  0000 C CNN
+F 1 "CONN_02X03" H 10000 1750 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_MegaFit_2x03x5.70mm_Straight" H 10000 750 50  0001 C CNN
+F 3 "" H 10000 750 50  0001 C CNN
+	1    10000 1950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 1850 9750 1850
+Text Label 9650 1850 2    60   ~ 0
+BANDGAPa2
+Wire Wire Line
+	10250 1850 10350 1850
+Wire Wire Line
+	9750 1950 9650 1950
+Wire Wire Line
+	9750 2050 9650 2050
+Wire Wire Line
+	10250 1950 10350 1950
+Wire Wire Line
+	10250 2050 10350 2050
+Text Label 9650 1950 2    60   ~ 0
+VOUT_RTNa2
+Text Label 9650 2050 2    60   ~ 0
+HV_OUTa2
+Text Label 10350 1850 0    60   ~ 0
+VOUTa2
+Text Label 10350 2050 0    60   ~ 0
+VIN_RTN
+Text Label 10350 1950 0    60   ~ 0
+HV_OUT_RTNa2
+$Comp
+L CONN_02X03 J23
+U 1 1 5993305F
+P 10000 2450
+F 0 "J23" H 10000 2650 50  0000 C CNN
+F 1 "CONN_02X03" H 10000 2250 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_MegaFit_2x03x5.70mm_Straight" H 10000 1250 50  0001 C CNN
+F 3 "" H 10000 1250 50  0001 C CNN
+	1    10000 2450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 2350 9750 2350
+Text Label 9650 2350 2    60   ~ 0
+BANDGAPa3
+Wire Wire Line
+	10250 2350 10350 2350
+Wire Wire Line
+	9750 2450 9650 2450
+Wire Wire Line
+	9750 2550 9650 2550
+Wire Wire Line
+	10250 2450 10350 2450
+Wire Wire Line
+	10250 2550 10350 2550
+Text Label 9650 2450 2    60   ~ 0
+VOUT_RTNa3
+Text Label 9650 2550 2    60   ~ 0
+HV_OUTa3
+Text Label 10350 2350 0    60   ~ 0
+VOUTa3
+Text Label 10350 2550 0    60   ~ 0
+VIN_RTN
+Text Label 10350 2450 0    60   ~ 0
+HV_OUT_RTNa3
+$Comp
+L CONN_02X03 J24
+U 1 1 59933071
+P 10000 2950
+F 0 "J24" H 10000 3150 50  0000 C CNN
+F 1 "CONN_02X03" H 10000 2750 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_MegaFit_2x03x5.70mm_Straight" H 10000 1750 50  0001 C CNN
+F 3 "" H 10000 1750 50  0001 C CNN
+	1    10000 2950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 2850 9750 2850
+Text Label 9650 2850 2    60   ~ 0
+BANDGAPa4
+Wire Wire Line
+	10250 2850 10350 2850
+Wire Wire Line
+	9750 2950 9650 2950
+Wire Wire Line
+	9750 3050 9650 3050
+Wire Wire Line
+	10250 2950 10350 2950
+Wire Wire Line
+	10250 3050 10350 3050
+Text Label 9650 2950 2    60   ~ 0
+VOUT_RTNa4
+Text Label 9650 3050 2    60   ~ 0
+HV_OUTa4
+Text Label 10350 2850 0    60   ~ 0
+VOUTa4
+Text Label 10350 3050 0    60   ~ 0
+VIN_RTN
+Text Label 10350 2950 0    60   ~ 0
+HV_OUT_RTNa4
+$Comp
+L CONN_02X03 J25
+U 1 1 59933083
+P 10000 3450
+F 0 "J25" H 10000 3650 50  0000 C CNN
+F 1 "CONN_02X03" H 10000 3250 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_MegaFit_2x03x5.70mm_Straight" H 10000 2250 50  0001 C CNN
+F 3 "" H 10000 2250 50  0001 C CNN
+	1    10000 3450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 3350 9750 3350
+Text Label 9650 3350 2    60   ~ 0
+BANDGAPa5
+Wire Wire Line
+	10250 3350 10350 3350
+Wire Wire Line
+	9750 3450 9650 3450
+Wire Wire Line
+	9750 3550 9650 3550
+Wire Wire Line
+	10250 3450 10350 3450
+Wire Wire Line
+	10250 3550 10350 3550
+Text Label 9650 3450 2    60   ~ 0
+VOUT_RTNa5
+Text Label 9650 3550 2    60   ~ 0
+HV_OUTa5
+Text Label 10350 3350 0    60   ~ 0
+VOUTa5
+Text Label 10350 3550 0    60   ~ 0
+VIN_RTN
+Text Label 10350 3450 0    60   ~ 0
+HV_OUT_RTNa5
+$Comp
+L CONN_02X03 J26
+U 1 1 59933095
+P 10000 3950
+F 0 "J26" H 10000 4150 50  0000 C CNN
+F 1 "CONN_02X03" H 10000 3750 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_MegaFit_2x03x5.70mm_Straight" H 10000 2750 50  0001 C CNN
+F 3 "" H 10000 2750 50  0001 C CNN
+	1    10000 3950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 3850 9750 3850
+Text Label 9650 3850 2    60   ~ 0
+BANDGAPa6
+Wire Wire Line
+	10250 3850 10350 3850
+Wire Wire Line
+	9750 3950 9650 3950
+Wire Wire Line
+	9750 4050 9650 4050
+Wire Wire Line
+	10250 3950 10350 3950
+Wire Wire Line
+	10250 4050 10350 4050
+Text Label 9650 3950 2    60   ~ 0
+VOUT_RTNa6
+Text Label 9650 4050 2    60   ~ 0
+HV_OUTa6
+Text Label 10350 3850 0    60   ~ 0
+VOUTa6
+Text Label 10350 4050 0    60   ~ 0
+VIN_RTN
+Text Label 10350 3950 0    60   ~ 0
+HV_OUT_RTNa6
+$Comp
+L CONN_02X03 J27
+U 1 1 599330A7
+P 10000 4450
+F 0 "J27" H 10000 4650 50  0000 C CNN
+F 1 "CONN_02X03" H 10000 4250 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_MegaFit_2x03x5.70mm_Straight" H 10000 3250 50  0001 C CNN
+F 3 "" H 10000 3250 50  0001 C CNN
+	1    10000 4450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 4350 9750 4350
+Text Label 9650 4350 2    60   ~ 0
+BANDGAPa7
+Wire Wire Line
+	10250 4350 10350 4350
+Wire Wire Line
+	9750 4450 9650 4450
+Wire Wire Line
+	9750 4550 9650 4550
+Wire Wire Line
+	10250 4450 10350 4450
+Wire Wire Line
+	10250 4550 10350 4550
+Text Label 9650 4450 2    60   ~ 0
+VOUT_RTNa7
+Text Label 9650 4550 2    60   ~ 0
+HV_OUTa7
+Text Label 10350 4350 0    60   ~ 0
+VOUTa7
+Text Label 10350 4550 0    60   ~ 0
+VIN_RTN
+Text Label 10350 4450 0    60   ~ 0
+HV_OUT_RTNa7
+$Comp
+L CONN_02X03 J31
+U 1 1 59933599
+P 12100 1450
+F 0 "J31" H 12100 1650 50  0000 C CNN
+F 1 "CONN_02X03" H 12100 1250 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_MegaFit_2x03x5.70mm_Straight" H 12100 250 50  0001 C CNN
+F 3 "" H 12100 250 50  0001 C CNN
+	1    12100 1450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	11750 1350 11850 1350
+Text Label 11750 1350 2    60   ~ 0
+BANDGAPc1
+Wire Wire Line
+	12350 1350 12450 1350
+Wire Wire Line
+	11850 1450 11750 1450
+Wire Wire Line
+	11850 1550 11750 1550
+Wire Wire Line
+	12350 1450 12450 1450
+Wire Wire Line
+	12350 1550 12450 1550
+Text Label 11750 1450 2    60   ~ 0
+VOUT_RTNa1
+Text Label 11750 1550 2    60   ~ 0
+HV_OUTa1
+Text Label 12450 1350 0    60   ~ 0
+VOUTa1
+Text Label 12450 1550 0    60   ~ 0
+VIN_RTN
+Text Label 12450 1450 0    60   ~ 0
+HV_OUT_RTNa1
+$Comp
+L CONN_02X03 J32
+U 1 1 599335AB
+P 12100 1950
+F 0 "J32" H 12100 2150 50  0000 C CNN
+F 1 "CONN_02X03" H 12100 1750 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_MegaFit_2x03x5.70mm_Straight" H 12100 750 50  0001 C CNN
+F 3 "" H 12100 750 50  0001 C CNN
+	1    12100 1950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	11750 1850 11850 1850
+Text Label 11750 1850 2    60   ~ 0
+BANDGAPa2
+Wire Wire Line
+	12350 1850 12450 1850
+Wire Wire Line
+	11850 1950 11750 1950
+Wire Wire Line
+	11850 2050 11750 2050
+Wire Wire Line
+	12350 1950 12450 1950
+Wire Wire Line
+	12350 2050 12450 2050
+Text Label 11750 1950 2    60   ~ 0
+VOUT_RTNa2
+Text Label 11750 2050 2    60   ~ 0
+HV_OUTa2
+Text Label 12450 1850 0    60   ~ 0
+VOUTa2
+Text Label 12450 2050 0    60   ~ 0
+VIN_RTN
+Text Label 12450 1950 0    60   ~ 0
+HV_OUT_RTNa2
+$Comp
+L CONN_02X03 J33
+U 1 1 599335BD
+P 12100 2450
+F 0 "J33" H 12100 2650 50  0000 C CNN
+F 1 "CONN_02X03" H 12100 2250 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_MegaFit_2x03x5.70mm_Straight" H 12100 1250 50  0001 C CNN
+F 3 "" H 12100 1250 50  0001 C CNN
+	1    12100 2450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	11750 2350 11850 2350
+Text Label 11750 2350 2    60   ~ 0
+BANDGAPa3
+Wire Wire Line
+	12350 2350 12450 2350
+Wire Wire Line
+	11850 2450 11750 2450
+Wire Wire Line
+	11850 2550 11750 2550
+Wire Wire Line
+	12350 2450 12450 2450
+Wire Wire Line
+	12350 2550 12450 2550
+Text Label 11750 2450 2    60   ~ 0
+VOUT_RTNa3
+Text Label 11750 2550 2    60   ~ 0
+HV_OUTa3
+Text Label 12450 2350 0    60   ~ 0
+VOUTa3
+Text Label 12450 2550 0    60   ~ 0
+VIN_RTN
+Text Label 12450 2450 0    60   ~ 0
+HV_OUT_RTNa3
+$Comp
+L CONN_02X03 J34
+U 1 1 599335CF
+P 12100 2950
+F 0 "J34" H 12100 3150 50  0000 C CNN
+F 1 "CONN_02X03" H 12100 2750 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_MegaFit_2x03x5.70mm_Straight" H 12100 1750 50  0001 C CNN
+F 3 "" H 12100 1750 50  0001 C CNN
+	1    12100 2950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	11750 2850 11850 2850
+Text Label 11750 2850 2    60   ~ 0
+BANDGAPa4
+Wire Wire Line
+	12350 2850 12450 2850
+Wire Wire Line
+	11850 2950 11750 2950
+Wire Wire Line
+	11850 3050 11750 3050
+Wire Wire Line
+	12350 2950 12450 2950
+Wire Wire Line
+	12350 3050 12450 3050
+Text Label 11750 2950 2    60   ~ 0
+VOUT_RTNa4
+Text Label 11750 3050 2    60   ~ 0
+HV_OUTa4
+Text Label 12450 2850 0    60   ~ 0
+VOUTa4
+Text Label 12450 3050 0    60   ~ 0
+VIN_RTN
+Text Label 12450 2950 0    60   ~ 0
+HV_OUT_RTNa4
+$Comp
+L CONN_02X03 J35
+U 1 1 599335E1
+P 12100 3450
+F 0 "J35" H 12100 3650 50  0000 C CNN
+F 1 "CONN_02X03" H 12100 3250 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_MegaFit_2x03x5.70mm_Straight" H 12100 2250 50  0001 C CNN
+F 3 "" H 12100 2250 50  0001 C CNN
+	1    12100 3450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	11750 3350 11850 3350
+Text Label 11750 3350 2    60   ~ 0
+BANDGAPa5
+Wire Wire Line
+	12350 3350 12450 3350
+Wire Wire Line
+	11850 3450 11750 3450
+Wire Wire Line
+	11850 3550 11750 3550
+Wire Wire Line
+	12350 3450 12450 3450
+Wire Wire Line
+	12350 3550 12450 3550
+Text Label 11750 3450 2    60   ~ 0
+VOUT_RTNa5
+Text Label 11750 3550 2    60   ~ 0
+HV_OUTa5
+Text Label 12450 3350 0    60   ~ 0
+VOUTa5
+Text Label 12450 3550 0    60   ~ 0
+VIN_RTN
+Text Label 12450 3450 0    60   ~ 0
+HV_OUT_RTNa5
+$Comp
+L CONN_02X03 J36
+U 1 1 599335F3
+P 12100 3950
+F 0 "J36" H 12100 4150 50  0000 C CNN
+F 1 "CONN_02X03" H 12100 3750 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_MegaFit_2x03x5.70mm_Straight" H 12100 2750 50  0001 C CNN
+F 3 "" H 12100 2750 50  0001 C CNN
+	1    12100 3950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	11750 3850 11850 3850
+Text Label 11750 3850 2    60   ~ 0
+BANDGAPa6
+Wire Wire Line
+	12350 3850 12450 3850
+Wire Wire Line
+	11850 3950 11750 3950
+Wire Wire Line
+	11850 4050 11750 4050
+Wire Wire Line
+	12350 3950 12450 3950
+Wire Wire Line
+	12350 4050 12450 4050
+Text Label 11750 3950 2    60   ~ 0
+VOUT_RTNa6
+Text Label 11750 4050 2    60   ~ 0
+HV_OUTa6
+Text Label 12450 3850 0    60   ~ 0
+VOUTa6
+Text Label 12450 4050 0    60   ~ 0
+VIN_RTN
+Text Label 12450 3950 0    60   ~ 0
+HV_OUT_RTNa6
+$Comp
+L CONN_02X03 J37
+U 1 1 59933605
+P 12100 4450
+F 0 "J37" H 12100 4650 50  0000 C CNN
+F 1 "CONN_02X03" H 12100 4250 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_MegaFit_2x03x5.70mm_Straight" H 12100 3250 50  0001 C CNN
+F 3 "" H 12100 3250 50  0001 C CNN
+	1    12100 4450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	11750 4350 11850 4350
+Text Label 11750 4350 2    60   ~ 0
+BANDGAPa7
+Wire Wire Line
+	12350 4350 12450 4350
+Wire Wire Line
+	11850 4450 11750 4450
+Wire Wire Line
+	11850 4550 11750 4550
+Wire Wire Line
+	12350 4450 12450 4450
+Wire Wire Line
+	12350 4550 12450 4550
+Text Label 11750 4450 2    60   ~ 0
+VOUT_RTNa7
+Text Label 11750 4550 2    60   ~ 0
+HV_OUTa7
+Text Label 12450 4350 0    60   ~ 0
+VOUTa7
+Text Label 12450 4550 0    60   ~ 0
+VIN_RTN
+Text Label 12450 4450 0    60   ~ 0
+HV_OUT_RTNa7
+$Comp
+L CONN_02X03 J41
+U 1 1 59933617
+P 14200 1450
+F 0 "J41" H 14200 1650 50  0000 C CNN
+F 1 "CONN_02X03" H 14200 1250 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_MegaFit_2x03x5.70mm_Straight" H 14200 250 50  0001 C CNN
+F 3 "" H 14200 250 50  0001 C CNN
+	1    14200 1450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	13850 1350 13950 1350
+Text Label 13850 1350 2    60   ~ 0
+BANDGAPd1
+Wire Wire Line
+	14450 1350 14550 1350
+Wire Wire Line
+	13950 1450 13850 1450
+Wire Wire Line
+	13950 1550 13850 1550
+Wire Wire Line
+	14450 1450 14550 1450
+Wire Wire Line
+	14450 1550 14550 1550
+Text Label 13850 1450 2    60   ~ 0
+VOUT_RTNa1
+Text Label 13850 1550 2    60   ~ 0
+HV_OUTa1
+Text Label 14550 1350 0    60   ~ 0
+VOUTa1
+Text Label 14550 1550 0    60   ~ 0
+VIN_RTN
+Text Label 14550 1450 0    60   ~ 0
+HV_OUT_RTNa1
+$Comp
+L CONN_02X03 J42
+U 1 1 59933629
+P 14200 1950
+F 0 "J42" H 14200 2150 50  0000 C CNN
+F 1 "CONN_02X03" H 14200 1750 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_MegaFit_2x03x5.70mm_Straight" H 14200 750 50  0001 C CNN
+F 3 "" H 14200 750 50  0001 C CNN
+	1    14200 1950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	13850 1850 13950 1850
+Text Label 13850 1850 2    60   ~ 0
+BANDGAPa2
+Wire Wire Line
+	14450 1850 14550 1850
+Wire Wire Line
+	13950 1950 13850 1950
+Wire Wire Line
+	13950 2050 13850 2050
+Wire Wire Line
+	14450 1950 14550 1950
+Wire Wire Line
+	14450 2050 14550 2050
+Text Label 13850 1950 2    60   ~ 0
+VOUT_RTNa2
+Text Label 13850 2050 2    60   ~ 0
+HV_OUTa2
+Text Label 14550 1850 0    60   ~ 0
+VOUTa2
+Text Label 14550 2050 0    60   ~ 0
+VIN_RTN
+Text Label 14550 1950 0    60   ~ 0
+HV_OUT_RTNa2
+$Comp
+L CONN_02X03 J43
+U 1 1 5993363B
+P 14200 2450
+F 0 "J43" H 14200 2650 50  0000 C CNN
+F 1 "CONN_02X03" H 14200 2250 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_MegaFit_2x03x5.70mm_Straight" H 14200 1250 50  0001 C CNN
+F 3 "" H 14200 1250 50  0001 C CNN
+	1    14200 2450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	13850 2350 13950 2350
+Text Label 13850 2350 2    60   ~ 0
+BANDGAPa3
+Wire Wire Line
+	14450 2350 14550 2350
+Wire Wire Line
+	13950 2450 13850 2450
+Wire Wire Line
+	13950 2550 13850 2550
+Wire Wire Line
+	14450 2450 14550 2450
+Wire Wire Line
+	14450 2550 14550 2550
+Text Label 13850 2450 2    60   ~ 0
+VOUT_RTNa3
+Text Label 13850 2550 2    60   ~ 0
+HV_OUTa3
+Text Label 14550 2350 0    60   ~ 0
+VOUTa3
+Text Label 14550 2550 0    60   ~ 0
+VIN_RTN
+Text Label 14550 2450 0    60   ~ 0
+HV_OUT_RTNa3
+$Comp
+L CONN_02X03 J44
+U 1 1 5993364D
+P 14200 2950
+F 0 "J44" H 14200 3150 50  0000 C CNN
+F 1 "CONN_02X03" H 14200 2750 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_MegaFit_2x03x5.70mm_Straight" H 14200 1750 50  0001 C CNN
+F 3 "" H 14200 1750 50  0001 C CNN
+	1    14200 2950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	13850 2850 13950 2850
+Text Label 13850 2850 2    60   ~ 0
+BANDGAPa4
+Wire Wire Line
+	14450 2850 14550 2850
+Wire Wire Line
+	13950 2950 13850 2950
+Wire Wire Line
+	13950 3050 13850 3050
+Wire Wire Line
+	14450 2950 14550 2950
+Wire Wire Line
+	14450 3050 14550 3050
+Text Label 13850 2950 2    60   ~ 0
+VOUT_RTNa4
+Text Label 13850 3050 2    60   ~ 0
+HV_OUTa4
+Text Label 14550 2850 0    60   ~ 0
+VOUTa4
+Text Label 14550 3050 0    60   ~ 0
+VIN_RTN
+Text Label 14550 2950 0    60   ~ 0
+HV_OUT_RTNa4
+$Comp
+L CONN_02X03 J45
+U 1 1 5993365F
+P 14200 3450
+F 0 "J45" H 14200 3650 50  0000 C CNN
+F 1 "CONN_02X03" H 14200 3250 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_MegaFit_2x03x5.70mm_Straight" H 14200 2250 50  0001 C CNN
+F 3 "" H 14200 2250 50  0001 C CNN
+	1    14200 3450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	13850 3350 13950 3350
+Text Label 13850 3350 2    60   ~ 0
+BANDGAPa5
+Wire Wire Line
+	14450 3350 14550 3350
+Wire Wire Line
+	13950 3450 13850 3450
+Wire Wire Line
+	13950 3550 13850 3550
+Wire Wire Line
+	14450 3450 14550 3450
+Wire Wire Line
+	14450 3550 14550 3550
+Text Label 13850 3450 2    60   ~ 0
+VOUT_RTNa5
+Text Label 13850 3550 2    60   ~ 0
+HV_OUTa5
+Text Label 14550 3350 0    60   ~ 0
+VOUTa5
+Text Label 14550 3550 0    60   ~ 0
+VIN_RTN
+Text Label 14550 3450 0    60   ~ 0
+HV_OUT_RTNa5
+$Comp
+L CONN_02X03 J46
+U 1 1 59933671
+P 14200 3950
+F 0 "J46" H 14200 4150 50  0000 C CNN
+F 1 "CONN_02X03" H 14200 3750 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_MegaFit_2x03x5.70mm_Straight" H 14200 2750 50  0001 C CNN
+F 3 "" H 14200 2750 50  0001 C CNN
+	1    14200 3950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	13850 3850 13950 3850
+Text Label 13850 3850 2    60   ~ 0
+BANDGAPa6
+Wire Wire Line
+	14450 3850 14550 3850
+Wire Wire Line
+	13950 3950 13850 3950
+Wire Wire Line
+	13950 4050 13850 4050
+Wire Wire Line
+	14450 3950 14550 3950
+Wire Wire Line
+	14450 4050 14550 4050
+Text Label 13850 3950 2    60   ~ 0
+VOUT_RTNa6
+Text Label 13850 4050 2    60   ~ 0
+HV_OUTa6
+Text Label 14550 3850 0    60   ~ 0
+VOUTa6
+Text Label 14550 4050 0    60   ~ 0
+VIN_RTN
+Text Label 14550 3950 0    60   ~ 0
+HV_OUT_RTNa6
+$Comp
+L CONN_02X03 J47
+U 1 1 59933683
+P 14200 4450
+F 0 "J47" H 14200 4650 50  0000 C CNN
+F 1 "CONN_02X03" H 14200 4250 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_MegaFit_2x03x5.70mm_Straight" H 14200 3250 50  0001 C CNN
+F 3 "" H 14200 3250 50  0001 C CNN
+	1    14200 4450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	13850 4350 13950 4350
+Text Label 13850 4350 2    60   ~ 0
+BANDGAPa7
+Wire Wire Line
+	14450 4350 14550 4350
+Wire Wire Line
+	13950 4450 13850 4450
+Wire Wire Line
+	13950 4550 13850 4550
+Wire Wire Line
+	14450 4450 14550 4450
+Wire Wire Line
+	14450 4550 14550 4550
+Text Label 13850 4450 2    60   ~ 0
+VOUT_RTNa7
+Text Label 13850 4550 2    60   ~ 0
+HV_OUTa7
+Text Label 14550 4350 0    60   ~ 0
+VOUTa7
+Text Label 14550 4550 0    60   ~ 0
+VIN_RTN
+Text Label 14550 4450 0    60   ~ 0
+HV_OUT_RTNa7
 $EndSCHEMATC

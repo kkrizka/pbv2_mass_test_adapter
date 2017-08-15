@@ -146,7 +146,8 @@ SheetInstance.RegisterModulesAndNets(board)
 # this trick came from here: http://stackoverflow.com/a/2669158
 import re
 tokenize = re.compile(r'(\d+)|(\D+)').findall
-def natural_sortkey(string):          
+def natural_sortkey(string):
+    print(string)
     return tuple(int(num) if num else alpha for num, alpha in tokenize(string))
 
 def replicate_sheet_trackst(fromnet, tonet, offset):
@@ -291,7 +292,7 @@ def place_instances(mainref, pitch):
 #place_instances("Q1", (6.5, 0))
 #place_instances("Q5", (6.5, 0))
 
-place_instances("R4", (30, 0))
+place_instances("R1101", (30, 0))
             
 pcbnew.Refresh();
 

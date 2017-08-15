@@ -418,7 +418,7 @@ $EndComp
 Wire Wire Line
 	8250 1350 8150 1350
 Text Label 8250 1350 0    60   ~ 0
-VIN_RTN
+BANDGAPa1
 Wire Wire Line
 	7650 1350 7550 1350
 Wire Wire Line
@@ -430,15 +430,15 @@ Wire Wire Line
 Wire Wire Line
 	7650 1550 7550 1550
 Text Label 8250 1450 0    60   ~ 0
-HV_OUT_RTNa1
-Text Label 8250 1550 0    60   ~ 0
-VOUTa1
-Text Label 7550 1350 2    60   ~ 0
-HV_OUTa1
-Text Label 7550 1550 2    60   ~ 0
-BANDGAPa1
-Text Label 7550 1450 2    60   ~ 0
 VOUT_RTNa1
+Text Label 8250 1550 0    60   ~ 0
+HV_OUTa1
+Text Label 7550 1350 2    60   ~ 0
+VOUTa1
+Text Label 7550 1550 2    60   ~ 0
+VIN_RTN
+Text Label 7550 1450 2    60   ~ 0
+HV_OUT_RTNa1
 $Comp
 L CONN_02X03 J3
 U 1 1 5992EACF
@@ -453,7 +453,7 @@ $EndComp
 Wire Wire Line
 	8250 1850 8150 1850
 Text Label 8250 1850 0    60   ~ 0
-VIN_RTN
+BANDGAPa2
 Wire Wire Line
 	7650 1850 7550 1850
 Wire Wire Line
@@ -465,223 +465,13 @@ Wire Wire Line
 Wire Wire Line
 	7650 2050 7550 2050
 Text Label 8250 1950 0    60   ~ 0
-HV_OUT_RTNa2
-Text Label 8250 2050 0    60   ~ 0
-VOUTa2
-Text Label 7550 1850 2    60   ~ 0
-HV_OUTa2
-Text Label 7550 2050 2    60   ~ 0
-BANDGAPa2
-Text Label 7550 1950 2    60   ~ 0
 VOUT_RTNa2
-$Comp
-L CONN_02X03 J4
-U 1 1 5992FEFD
-P 7900 2450
-F 0 "J4" H 7900 2650 50  0000 C CNN
-F 1 "CONN_02X03" H 7900 2250 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_MegaFit_2x03x5.70mm_Straight" H 7900 1250 50  0001 C CNN
-F 3 "" H 7900 1250 50  0001 C CNN
-	1    7900 2450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8250 2350 8150 2350
-Text Label 8250 2350 0    60   ~ 0
+Text Label 8250 2050 0    60   ~ 0
+HV_OUTa2
+Text Label 7550 1850 2    60   ~ 0
+VOUTa2
+Text Label 7550 2050 2    60   ~ 0
 VIN_RTN
-Wire Wire Line
-	7650 2350 7550 2350
-Wire Wire Line
-	8150 2450 8250 2450
-Wire Wire Line
-	8150 2550 8250 2550
-Wire Wire Line
-	7650 2450 7550 2450
-Wire Wire Line
-	7650 2550 7550 2550
-Text Label 8250 2450 0    60   ~ 0
-HV_OUT_RTNa3
-Text Label 8250 2550 0    60   ~ 0
-VOUTa3
-Text Label 7550 2350 2    60   ~ 0
-HV_OUTa3
-Text Label 7550 2550 2    60   ~ 0
-BANDGAPa3
-Text Label 7550 2450 2    60   ~ 0
-VOUT_RTNa3
-$Comp
-L CONN_02X03 J5
-U 1 1 5992FF0F
-P 7900 2950
-F 0 "J5" H 7900 3150 50  0000 C CNN
-F 1 "CONN_02X03" H 7900 2750 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_MegaFit_2x03x5.70mm_Straight" H 7900 1750 50  0001 C CNN
-F 3 "" H 7900 1750 50  0001 C CNN
-	1    7900 2950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8250 2850 8150 2850
-Text Label 8250 2850 0    60   ~ 0
-VIN_RTN
-Wire Wire Line
-	7650 2850 7550 2850
-Wire Wire Line
-	8150 2950 8250 2950
-Wire Wire Line
-	8150 3050 8250 3050
-Wire Wire Line
-	7650 2950 7550 2950
-Wire Wire Line
-	7650 3050 7550 3050
-Text Label 8250 2950 0    60   ~ 0
-HV_OUT_RTNa1
-Text Label 8250 3050 0    60   ~ 0
-VOUTa1
-Text Label 7550 2850 2    60   ~ 0
-HV_OUTa1
-Text Label 7550 3050 2    60   ~ 0
-BANDGAPa1
-Text Label 7550 2950 2    60   ~ 0
-VOUT_RTNa1
-$Comp
-L CONN_02X03 J6
-U 1 1 59930B82
-P 7900 3450
-F 0 "J6" H 7900 3650 50  0000 C CNN
-F 1 "CONN_02X03" H 7900 3250 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_MegaFit_2x03x5.70mm_Straight" H 7900 2250 50  0001 C CNN
-F 3 "" H 7900 2250 50  0001 C CNN
-	1    7900 3450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8250 3350 8150 3350
-Text Label 8250 3350 0    60   ~ 0
-VIN_RTN
-Wire Wire Line
-	7650 3350 7550 3350
-Wire Wire Line
-	8150 3450 8250 3450
-Wire Wire Line
-	8150 3550 8250 3550
-Wire Wire Line
-	7650 3450 7550 3450
-Wire Wire Line
-	7650 3550 7550 3550
-Text Label 8250 3450 0    60   ~ 0
-HV_OUT_RTNa1
-Text Label 8250 3550 0    60   ~ 0
-VOUTa1
-Text Label 7550 3350 2    60   ~ 0
-HV_OUTa1
-Text Label 7550 3550 2    60   ~ 0
-BANDGAPa1
-Text Label 7550 3450 2    60   ~ 0
-VOUT_RTNa1
-$Comp
-L CONN_02X03 J7
-U 1 1 59930B94
-P 7900 3950
-F 0 "J7" H 7900 4150 50  0000 C CNN
-F 1 "CONN_02X03" H 7900 3750 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_MegaFit_2x03x5.70mm_Straight" H 7900 2750 50  0001 C CNN
-F 3 "" H 7900 2750 50  0001 C CNN
-	1    7900 3950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8250 3850 8150 3850
-Text Label 8250 3850 0    60   ~ 0
-VIN_RTN
-Wire Wire Line
-	7650 3850 7550 3850
-Wire Wire Line
-	8150 3950 8250 3950
-Wire Wire Line
-	8150 4050 8250 4050
-Wire Wire Line
-	7650 3950 7550 3950
-Wire Wire Line
-	7650 4050 7550 4050
-Text Label 8250 3950 0    60   ~ 0
-HV_OUT_RTNa1
-Text Label 8250 4050 0    60   ~ 0
-VOUTa1
-Text Label 7550 3850 2    60   ~ 0
-HV_OUTa1
-Text Label 7550 4050 2    60   ~ 0
-BANDGAPa1
-Text Label 7550 3950 2    60   ~ 0
-VOUT_RTNa1
-$Comp
-L CONN_02X03 J8
-U 1 1 59930BA6
-P 7900 4450
-F 0 "J8" H 7900 4650 50  0000 C CNN
-F 1 "CONN_02X03" H 7900 4250 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_MegaFit_2x03x5.70mm_Straight" H 7900 3250 50  0001 C CNN
-F 3 "" H 7900 3250 50  0001 C CNN
-	1    7900 4450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8250 4350 8150 4350
-Text Label 8250 4350 0    60   ~ 0
-VIN_RTN
-Wire Wire Line
-	7650 4350 7550 4350
-Wire Wire Line
-	8150 4450 8250 4450
-Wire Wire Line
-	8150 4550 8250 4550
-Wire Wire Line
-	7650 4450 7550 4450
-Wire Wire Line
-	7650 4550 7550 4550
-Text Label 8250 4450 0    60   ~ 0
-HV_OUT_RTNa1
-Text Label 8250 4550 0    60   ~ 0
-VOUTa1
-Text Label 7550 4350 2    60   ~ 0
-HV_OUTa1
-Text Label 7550 4550 2    60   ~ 0
-BANDGAPa1
-Text Label 7550 4450 2    60   ~ 0
-VOUT_RTNa1
-$Comp
-L CONN_02X03 J9
-U 1 1 59930BB8
-P 7900 4950
-F 0 "J9" H 7900 5150 50  0000 C CNN
-F 1 "CONN_02X03" H 7900 4750 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_MegaFit_2x03x5.70mm_Straight" H 7900 3750 50  0001 C CNN
-F 3 "" H 7900 3750 50  0001 C CNN
-	1    7900 4950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8250 4850 8150 4850
-Text Label 8250 4850 0    60   ~ 0
-VIN_RTN
-Wire Wire Line
-	7650 4850 7550 4850
-Wire Wire Line
-	8150 4950 8250 4950
-Wire Wire Line
-	8150 5050 8250 5050
-Wire Wire Line
-	7650 4950 7550 4950
-Wire Wire Line
-	7650 5050 7550 5050
-Text Label 8250 4950 0    60   ~ 0
-HV_OUT_RTNa1
-Text Label 8250 5050 0    60   ~ 0
-VOUTa1
-Text Label 7550 4850 2    60   ~ 0
-HV_OUTa1
-Text Label 7550 5050 2    60   ~ 0
-BANDGAPa1
-Text Label 7550 4950 2    60   ~ 0
-VOUT_RTNa1
+Text Label 7550 1950 2    60   ~ 0
+HV_OUT_RTNa2
 $EndSCHEMATC

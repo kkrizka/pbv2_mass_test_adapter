@@ -291,7 +291,7 @@ def place_instances(mainref, pitch):
 #place_instances("Q1", (6.5, 0))
 #place_instances("Q5", (6.5, 0))
 
-place_instances("R4", (25, 0))
+place_instances("R4", (30, 0))
             
 pcbnew.Refresh();
 

@@ -410,7 +410,7 @@ U 1 1 599246DE
 P 7900 1450
 F 0 "J1" H 7900 1650 50  0000 C CNN
 F 1 "CONN_02X03" H 7900 1250 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_MegaFit_2x03x5.70mm_Angled" H 7900 250 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_MegaFit_2x03x5.70mm_Straight" H 7900 250 50  0001 C CNN
 F 3 "" H 7900 250 50  0001 C CNN
 	1    7900 1450
 	1    0    0    -1  
@@ -445,7 +445,7 @@ U 1 1 5992EACF
 P 7900 1950
 F 0 "J3" H 7900 2150 50  0000 C CNN
 F 1 "CONN_02X03" H 7900 1750 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_MegaFit_2x03x5.70mm_Angled" H 7900 750 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_MegaFit_2x03x5.70mm_Straight" H 7900 750 50  0001 C CNN
 F 3 "" H 7900 750 50  0001 C CNN
 	1    7900 1950
 	1    0    0    -1  
@@ -480,7 +480,7 @@ U 1 1 5992FEFD
 P 7900 2450
 F 0 "J4" H 7900 2650 50  0000 C CNN
 F 1 "CONN_02X03" H 7900 2250 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_MegaFit_2x03x5.70mm_Angled" H 7900 1250 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_MegaFit_2x03x5.70mm_Straight" H 7900 1250 50  0001 C CNN
 F 3 "" H 7900 1250 50  0001 C CNN
 	1    7900 2450
 	1    0    0    -1  
@@ -500,22 +500,22 @@ Wire Wire Line
 Wire Wire Line
 	7650 2550 7550 2550
 Text Label 8250 2450 0    60   ~ 0
-HV_OUT_RTNa1
+HV_OUT_RTNa3
 Text Label 8250 2550 0    60   ~ 0
-VOUTa1
+VOUTa3
 Text Label 7550 2350 2    60   ~ 0
-HV_OUTa1
+HV_OUTa3
 Text Label 7550 2550 2    60   ~ 0
-BANDGAPa1
+BANDGAPa3
 Text Label 7550 2450 2    60   ~ 0
-VOUT_RTNa1
+VOUT_RTNa3
 $Comp
 L CONN_02X03 J5
 U 1 1 5992FF0F
 P 7900 2950
 F 0 "J5" H 7900 3150 50  0000 C CNN
 F 1 "CONN_02X03" H 7900 2750 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_MegaFit_2x03x5.70mm_Angled" H 7900 1750 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_MegaFit_2x03x5.70mm_Straight" H 7900 1750 50  0001 C CNN
 F 3 "" H 7900 1750 50  0001 C CNN
 	1    7900 2950
 	1    0    0    -1  
@@ -550,7 +550,7 @@ U 1 1 59930B82
 P 7900 3450
 F 0 "J6" H 7900 3650 50  0000 C CNN
 F 1 "CONN_02X03" H 7900 3250 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_MegaFit_2x03x5.70mm_Angled" H 7900 2250 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_MegaFit_2x03x5.70mm_Straight" H 7900 2250 50  0001 C CNN
 F 3 "" H 7900 2250 50  0001 C CNN
 	1    7900 3450
 	1    0    0    -1  
@@ -585,7 +585,7 @@ U 1 1 59930B94
 P 7900 3950
 F 0 "J7" H 7900 4150 50  0000 C CNN
 F 1 "CONN_02X03" H 7900 3750 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_MegaFit_2x03x5.70mm_Angled" H 7900 2750 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_MegaFit_2x03x5.70mm_Straight" H 7900 2750 50  0001 C CNN
 F 3 "" H 7900 2750 50  0001 C CNN
 	1    7900 3950
 	1    0    0    -1  
@@ -620,7 +620,7 @@ U 1 1 59930BA6
 P 7900 4450
 F 0 "J8" H 7900 4650 50  0000 C CNN
 F 1 "CONN_02X03" H 7900 4250 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_MegaFit_2x03x5.70mm_Angled" H 7900 3250 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_MegaFit_2x03x5.70mm_Straight" H 7900 3250 50  0001 C CNN
 F 3 "" H 7900 3250 50  0001 C CNN
 	1    7900 4450
 	1    0    0    -1  
@@ -655,7 +655,7 @@ U 1 1 59930BB8
 P 7900 4950
 F 0 "J9" H 7900 5150 50  0000 C CNN
 F 1 "CONN_02X03" H 7900 4750 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_MegaFit_2x03x5.70mm_Angled" H 7900 3750 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_MegaFit_2x03x5.70mm_Straight" H 7900 3750 50  0001 C CNN
 F 3 "" H 7900 3750 50  0001 C CNN
 	1    7900 4950
 	1    0    0    -1  

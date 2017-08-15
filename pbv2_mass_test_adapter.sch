@@ -677,13 +677,13 @@ Wire Wire Line
 Text Label 9650 1450 2    60   ~ 0
 VOUT_RTNb1
 Text Label 9650 1550 2    60   ~ 0
-HV_OUTa1
+HV_OUTb1
 Text Label 10350 1350 0    60   ~ 0
-VOUTa1
+VOUTb1
 Text Label 10350 1550 0    60   ~ 0
 VIN_RTN
 Text Label 10350 1450 0    60   ~ 0
-HV_OUT_RTNa1
+HV_OUT_RTNb1
 $Comp
 L CONN_02X03 J22
 U 1 1 5993304D
@@ -698,7 +698,7 @@ $EndComp
 Wire Wire Line
 	9650 1850 9750 1850
 Text Label 9650 1850 2    60   ~ 0
-BANDGAPa2
+BANDGAPb2
 Wire Wire Line
 	10250 1850 10350 1850
 Wire Wire Line
@@ -710,15 +710,15 @@ Wire Wire Line
 Wire Wire Line
 	10250 2050 10350 2050
 Text Label 9650 1950 2    60   ~ 0
-VOUT_RTNa2
+VOUT_RTNb2
 Text Label 9650 2050 2    60   ~ 0
-HV_OUTa2
+HV_OUTb2
 Text Label 10350 1850 0    60   ~ 0
-VOUTa2
+VOUTb2
 Text Label 10350 2050 0    60   ~ 0
 VIN_RTN
 Text Label 10350 1950 0    60   ~ 0
-HV_OUT_RTNa2
+HV_OUT_RTNb2
 $Comp
 L CONN_02X03 J23
 U 1 1 5993305F
@@ -733,7 +733,7 @@ $EndComp
 Wire Wire Line
 	9650 2350 9750 2350
 Text Label 9650 2350 2    60   ~ 0
-BANDGAPa3
+BANDGAPb3
 Wire Wire Line
 	10250 2350 10350 2350
 Wire Wire Line
@@ -745,15 +745,15 @@ Wire Wire Line
 Wire Wire Line
 	10250 2550 10350 2550
 Text Label 9650 2450 2    60   ~ 0
-VOUT_RTNa3
+VOUT_RTNb3
 Text Label 9650 2550 2    60   ~ 0
-HV_OUTa3
+HV_OUTb3
 Text Label 10350 2350 0    60   ~ 0
-VOUTa3
+VOUTb3
 Text Label 10350 2550 0    60   ~ 0
 VIN_RTN
 Text Label 10350 2450 0    60   ~ 0
-HV_OUT_RTNa3
+HV_OUT_RTNb3
 $Comp
 L CONN_02X03 J24
 U 1 1 59933071
@@ -768,7 +768,7 @@ $EndComp
 Wire Wire Line
 	9650 2850 9750 2850
 Text Label 9650 2850 2    60   ~ 0
-BANDGAPa4
+BANDGAPb4
 Wire Wire Line
 	10250 2850 10350 2850
 Wire Wire Line
@@ -780,15 +780,15 @@ Wire Wire Line
 Wire Wire Line
 	10250 3050 10350 3050
 Text Label 9650 2950 2    60   ~ 0
-VOUT_RTNa4
+VOUT_RTNb4
 Text Label 9650 3050 2    60   ~ 0
-HV_OUTa4
+HV_OUTb4
 Text Label 10350 2850 0    60   ~ 0
-VOUTa4
+VOUTb4
 Text Label 10350 3050 0    60   ~ 0
 VIN_RTN
 Text Label 10350 2950 0    60   ~ 0
-HV_OUT_RTNa4
+HV_OUT_RTNb4
 $Comp
 L CONN_02X03 J25
 U 1 1 59933083
@@ -803,7 +803,7 @@ $EndComp
 Wire Wire Line
 	9650 3350 9750 3350
 Text Label 9650 3350 2    60   ~ 0
-BANDGAPa5
+BANDGAPb5
 Wire Wire Line
 	10250 3350 10350 3350
 Wire Wire Line
@@ -815,15 +815,15 @@ Wire Wire Line
 Wire Wire Line
 	10250 3550 10350 3550
 Text Label 9650 3450 2    60   ~ 0
-VOUT_RTNa5
+VOUT_RTNb5
 Text Label 9650 3550 2    60   ~ 0
-HV_OUTa5
+HV_OUTb5
 Text Label 10350 3350 0    60   ~ 0
-VOUTa5
+VOUTb5
 Text Label 10350 3550 0    60   ~ 0
 VIN_RTN
 Text Label 10350 3450 0    60   ~ 0
-HV_OUT_RTNa5
+HV_OUT_RTNb5
 $Comp
 L CONN_02X03 J26
 U 1 1 59933095
@@ -838,7 +838,7 @@ $EndComp
 Wire Wire Line
 	9650 3850 9750 3850
 Text Label 9650 3850 2    60   ~ 0
-BANDGAPa6
+BANDGAPb6
 Wire Wire Line
 	10250 3850 10350 3850
 Wire Wire Line
@@ -850,15 +850,15 @@ Wire Wire Line
 Wire Wire Line
 	10250 4050 10350 4050
 Text Label 9650 3950 2    60   ~ 0
-VOUT_RTNa6
+VOUT_RTNb6
 Text Label 9650 4050 2    60   ~ 0
-HV_OUTa6
+HV_OUTb6
 Text Label 10350 3850 0    60   ~ 0
-VOUTa6
+VOUTb6
 Text Label 10350 4050 0    60   ~ 0
 VIN_RTN
 Text Label 10350 3950 0    60   ~ 0
-HV_OUT_RTNa6
+HV_OUT_RTNb6
 $Comp
 L CONN_02X03 J27
 U 1 1 599330A7
@@ -873,7 +873,7 @@ $EndComp
 Wire Wire Line
 	9650 4350 9750 4350
 Text Label 9650 4350 2    60   ~ 0
-BANDGAPa7
+BANDGAPb7
 Wire Wire Line
 	10250 4350 10350 4350
 Wire Wire Line
@@ -885,15 +885,15 @@ Wire Wire Line
 Wire Wire Line
 	10250 4550 10350 4550
 Text Label 9650 4450 2    60   ~ 0
-VOUT_RTNa7
+VOUT_RTNb7
 Text Label 9650 4550 2    60   ~ 0
-HV_OUTa7
+HV_OUTb7
 Text Label 10350 4350 0    60   ~ 0
-VOUTa7
+VOUTb7
 Text Label 10350 4550 0    60   ~ 0
 VIN_RTN
 Text Label 10350 4450 0    60   ~ 0
-HV_OUT_RTNa7
+HV_OUT_RTNb7
 $Comp
 L CONN_02X03 J31
 U 1 1 59933599
@@ -920,15 +920,15 @@ Wire Wire Line
 Wire Wire Line
 	12350 1550 12450 1550
 Text Label 11750 1450 2    60   ~ 0
-VOUT_RTNa1
+VOUT_RTNc1
 Text Label 11750 1550 2    60   ~ 0
-HV_OUTa1
+HV_OUTc1
 Text Label 12450 1350 0    60   ~ 0
-VOUTa1
+VOUTc1
 Text Label 12450 1550 0    60   ~ 0
 VIN_RTN
 Text Label 12450 1450 0    60   ~ 0
-HV_OUT_RTNa1
+HV_OUT_RTNc1
 $Comp
 L CONN_02X03 J32
 U 1 1 599335AB
@@ -943,7 +943,7 @@ $EndComp
 Wire Wire Line
 	11750 1850 11850 1850
 Text Label 11750 1850 2    60   ~ 0
-BANDGAPa2
+BANDGAPc2
 Wire Wire Line
 	12350 1850 12450 1850
 Wire Wire Line
@@ -955,15 +955,15 @@ Wire Wire Line
 Wire Wire Line
 	12350 2050 12450 2050
 Text Label 11750 1950 2    60   ~ 0
-VOUT_RTNa2
+VOUT_RTNc2
 Text Label 11750 2050 2    60   ~ 0
-HV_OUTa2
+HV_OUTc2
 Text Label 12450 1850 0    60   ~ 0
-VOUTa2
+VOUTc2
 Text Label 12450 2050 0    60   ~ 0
 VIN_RTN
 Text Label 12450 1950 0    60   ~ 0
-HV_OUT_RTNa2
+HV_OUT_RTNc2
 $Comp
 L CONN_02X03 J33
 U 1 1 599335BD
@@ -978,7 +978,7 @@ $EndComp
 Wire Wire Line
 	11750 2350 11850 2350
 Text Label 11750 2350 2    60   ~ 0
-BANDGAPa3
+BANDGAPc3
 Wire Wire Line
 	12350 2350 12450 2350
 Wire Wire Line
@@ -990,15 +990,15 @@ Wire Wire Line
 Wire Wire Line
 	12350 2550 12450 2550
 Text Label 11750 2450 2    60   ~ 0
-VOUT_RTNa3
+VOUT_RTNc3
 Text Label 11750 2550 2    60   ~ 0
-HV_OUTa3
+HV_OUTc3
 Text Label 12450 2350 0    60   ~ 0
-VOUTa3
+VOUTc3
 Text Label 12450 2550 0    60   ~ 0
 VIN_RTN
 Text Label 12450 2450 0    60   ~ 0
-HV_OUT_RTNa3
+HV_OUT_RTNc3
 $Comp
 L CONN_02X03 J34
 U 1 1 599335CF
@@ -1013,7 +1013,7 @@ $EndComp
 Wire Wire Line
 	11750 2850 11850 2850
 Text Label 11750 2850 2    60   ~ 0
-BANDGAPa4
+BANDGAPc4
 Wire Wire Line
 	12350 2850 12450 2850
 Wire Wire Line
@@ -1025,15 +1025,15 @@ Wire Wire Line
 Wire Wire Line
 	12350 3050 12450 3050
 Text Label 11750 2950 2    60   ~ 0
-VOUT_RTNa4
+VOUT_RTNc4
 Text Label 11750 3050 2    60   ~ 0
-HV_OUTa4
+HV_OUTc4
 Text Label 12450 2850 0    60   ~ 0
-VOUTa4
+VOUTc4
 Text Label 12450 3050 0    60   ~ 0
 VIN_RTN
 Text Label 12450 2950 0    60   ~ 0
-HV_OUT_RTNa4
+HV_OUT_RTNc4
 $Comp
 L CONN_02X03 J35
 U 1 1 599335E1
@@ -1048,7 +1048,7 @@ $EndComp
 Wire Wire Line
 	11750 3350 11850 3350
 Text Label 11750 3350 2    60   ~ 0
-BANDGAPa5
+BANDGAPc5
 Wire Wire Line
 	12350 3350 12450 3350
 Wire Wire Line
@@ -1060,15 +1060,15 @@ Wire Wire Line
 Wire Wire Line
 	12350 3550 12450 3550
 Text Label 11750 3450 2    60   ~ 0
-VOUT_RTNa5
+VOUT_RTNc5
 Text Label 11750 3550 2    60   ~ 0
-HV_OUTa5
+HV_OUTc5
 Text Label 12450 3350 0    60   ~ 0
-VOUTa5
+VOUTc5
 Text Label 12450 3550 0    60   ~ 0
 VIN_RTN
 Text Label 12450 3450 0    60   ~ 0
-HV_OUT_RTNa5
+HV_OUT_RTNc5
 $Comp
 L CONN_02X03 J36
 U 1 1 599335F3
@@ -1083,7 +1083,7 @@ $EndComp
 Wire Wire Line
 	11750 3850 11850 3850
 Text Label 11750 3850 2    60   ~ 0
-BANDGAPa6
+BANDGAPc6
 Wire Wire Line
 	12350 3850 12450 3850
 Wire Wire Line
@@ -1095,15 +1095,15 @@ Wire Wire Line
 Wire Wire Line
 	12350 4050 12450 4050
 Text Label 11750 3950 2    60   ~ 0
-VOUT_RTNa6
+VOUT_RTNc6
 Text Label 11750 4050 2    60   ~ 0
-HV_OUTa6
+HV_OUTc6
 Text Label 12450 3850 0    60   ~ 0
-VOUTa6
+VOUTc6
 Text Label 12450 4050 0    60   ~ 0
 VIN_RTN
 Text Label 12450 3950 0    60   ~ 0
-HV_OUT_RTNa6
+HV_OUT_RTNc6
 $Comp
 L CONN_02X03 J37
 U 1 1 59933605
@@ -1118,7 +1118,7 @@ $EndComp
 Wire Wire Line
 	11750 4350 11850 4350
 Text Label 11750 4350 2    60   ~ 0
-BANDGAPa7
+BANDGAPc7
 Wire Wire Line
 	12350 4350 12450 4350
 Wire Wire Line
@@ -1130,15 +1130,15 @@ Wire Wire Line
 Wire Wire Line
 	12350 4550 12450 4550
 Text Label 11750 4450 2    60   ~ 0
-VOUT_RTNa7
+VOUT_RTNc7
 Text Label 11750 4550 2    60   ~ 0
-HV_OUTa7
+HV_OUTc7
 Text Label 12450 4350 0    60   ~ 0
-VOUTa7
+VOUTc7
 Text Label 12450 4550 0    60   ~ 0
 VIN_RTN
 Text Label 12450 4450 0    60   ~ 0
-HV_OUT_RTNa7
+HV_OUT_RTNc7
 $Comp
 L CONN_02X03 J41
 U 1 1 59933617
@@ -1165,15 +1165,15 @@ Wire Wire Line
 Wire Wire Line
 	14450 1550 14550 1550
 Text Label 13850 1450 2    60   ~ 0
-VOUT_RTNa1
+VOUT_RTNd1
 Text Label 13850 1550 2    60   ~ 0
-HV_OUTa1
+HV_OUTd1
 Text Label 14550 1350 0    60   ~ 0
-VOUTa1
+VOUTd1
 Text Label 14550 1550 0    60   ~ 0
 VIN_RTN
 Text Label 14550 1450 0    60   ~ 0
-HV_OUT_RTNa1
+HV_OUT_RTNd1
 $Comp
 L CONN_02X03 J42
 U 1 1 59933629
@@ -1188,7 +1188,7 @@ $EndComp
 Wire Wire Line
 	13850 1850 13950 1850
 Text Label 13850 1850 2    60   ~ 0
-BANDGAPa2
+BANDGAPd2
 Wire Wire Line
 	14450 1850 14550 1850
 Wire Wire Line
@@ -1200,15 +1200,15 @@ Wire Wire Line
 Wire Wire Line
 	14450 2050 14550 2050
 Text Label 13850 1950 2    60   ~ 0
-VOUT_RTNa2
+VOUT_RTNd2
 Text Label 13850 2050 2    60   ~ 0
-HV_OUTa2
+HV_OUTd2
 Text Label 14550 1850 0    60   ~ 0
-VOUTa2
+VOUTd2
 Text Label 14550 2050 0    60   ~ 0
 VIN_RTN
 Text Label 14550 1950 0    60   ~ 0
-HV_OUT_RTNa2
+HV_OUT_RTNd2
 $Comp
 L CONN_02X03 J43
 U 1 1 5993363B
@@ -1223,7 +1223,7 @@ $EndComp
 Wire Wire Line
 	13850 2350 13950 2350
 Text Label 13850 2350 2    60   ~ 0
-BANDGAPa3
+BANDGAPd3
 Wire Wire Line
 	14450 2350 14550 2350
 Wire Wire Line
@@ -1235,15 +1235,15 @@ Wire Wire Line
 Wire Wire Line
 	14450 2550 14550 2550
 Text Label 13850 2450 2    60   ~ 0
-VOUT_RTNa3
+VOUT_RTNd3
 Text Label 13850 2550 2    60   ~ 0
-HV_OUTa3
+HV_OUTd3
 Text Label 14550 2350 0    60   ~ 0
-VOUTa3
+VOUTd3
 Text Label 14550 2550 0    60   ~ 0
 VIN_RTN
 Text Label 14550 2450 0    60   ~ 0
-HV_OUT_RTNa3
+HV_OUT_RTNd3
 $Comp
 L CONN_02X03 J44
 U 1 1 5993364D
@@ -1258,7 +1258,7 @@ $EndComp
 Wire Wire Line
 	13850 2850 13950 2850
 Text Label 13850 2850 2    60   ~ 0
-BANDGAPa4
+BANDGAPd4
 Wire Wire Line
 	14450 2850 14550 2850
 Wire Wire Line
@@ -1270,15 +1270,15 @@ Wire Wire Line
 Wire Wire Line
 	14450 3050 14550 3050
 Text Label 13850 2950 2    60   ~ 0
-VOUT_RTNa4
+VOUT_RTNd4
 Text Label 13850 3050 2    60   ~ 0
-HV_OUTa4
+HV_OUTd4
 Text Label 14550 2850 0    60   ~ 0
-VOUTa4
+VOUTd4
 Text Label 14550 3050 0    60   ~ 0
 VIN_RTN
 Text Label 14550 2950 0    60   ~ 0
-HV_OUT_RTNa4
+HV_OUT_RTNd4
 $Comp
 L CONN_02X03 J45
 U 1 1 5993365F
@@ -1293,7 +1293,7 @@ $EndComp
 Wire Wire Line
 	13850 3350 13950 3350
 Text Label 13850 3350 2    60   ~ 0
-BANDGAPa5
+BANDGAPd5
 Wire Wire Line
 	14450 3350 14550 3350
 Wire Wire Line
@@ -1305,15 +1305,15 @@ Wire Wire Line
 Wire Wire Line
 	14450 3550 14550 3550
 Text Label 13850 3450 2    60   ~ 0
-VOUT_RTNa5
+VOUT_RTNd5
 Text Label 13850 3550 2    60   ~ 0
-HV_OUTa5
+HV_OUTd5
 Text Label 14550 3350 0    60   ~ 0
-VOUTa5
+VOUTd5
 Text Label 14550 3550 0    60   ~ 0
 VIN_RTN
 Text Label 14550 3450 0    60   ~ 0
-HV_OUT_RTNa5
+HV_OUT_RTNd5
 $Comp
 L CONN_02X03 J46
 U 1 1 59933671
@@ -1328,7 +1328,7 @@ $EndComp
 Wire Wire Line
 	13850 3850 13950 3850
 Text Label 13850 3850 2    60   ~ 0
-BANDGAPa6
+BANDGAPd6
 Wire Wire Line
 	14450 3850 14550 3850
 Wire Wire Line
@@ -1340,15 +1340,15 @@ Wire Wire Line
 Wire Wire Line
 	14450 4050 14550 4050
 Text Label 13850 3950 2    60   ~ 0
-VOUT_RTNa6
+VOUT_RTNd6
 Text Label 13850 4050 2    60   ~ 0
-HV_OUTa6
+HV_OUTd6
 Text Label 14550 3850 0    60   ~ 0
-VOUTa6
+VOUTd6
 Text Label 14550 4050 0    60   ~ 0
 VIN_RTN
 Text Label 14550 3950 0    60   ~ 0
-HV_OUT_RTNa6
+HV_OUT_RTNd6
 $Comp
 L CONN_02X03 J47
 U 1 1 59933683
@@ -1363,7 +1363,7 @@ $EndComp
 Wire Wire Line
 	13850 4350 13950 4350
 Text Label 13850 4350 2    60   ~ 0
-BANDGAPa7
+BANDGAPd7
 Wire Wire Line
 	14450 4350 14550 4350
 Wire Wire Line
@@ -1375,13 +1375,13 @@ Wire Wire Line
 Wire Wire Line
 	14450 4550 14550 4550
 Text Label 13850 4450 2    60   ~ 0
-VOUT_RTNa7
+VOUT_RTNd7
 Text Label 13850 4550 2    60   ~ 0
-HV_OUTa7
+HV_OUTd7
 Text Label 14550 4350 0    60   ~ 0
-VOUTa7
+VOUTd7
 Text Label 14550 4550 0    60   ~ 0
 VIN_RTN
 Text Label 14550 4450 0    60   ~ 0
-HV_OUT_RTNa7
+HV_OUT_RTNd7
 $EndSCHEMATC

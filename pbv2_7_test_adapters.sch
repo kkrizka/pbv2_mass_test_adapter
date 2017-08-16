@@ -34,7 +34,7 @@ EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 26 33
+Sheet 2 25
 Title "7x PowerBoard Test Frame"
 Date "2017-06-19"
 Rev ""

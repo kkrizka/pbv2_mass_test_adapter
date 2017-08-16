@@ -34,7 +34,7 @@ EELAYER 25 0
 EELAYER END
 $Descr USLedger 17000 11000
 encoding utf-8
-Sheet 1 33
+Sheet 1 25
 Title "PowerBoard Mass Test Frame"
 Date "2017-06-19"
 Rev ""
@@ -135,35 +135,6 @@ Text Label 3250 2550 2    60   ~ 0
 HV_IN_RTN
 Text Label 5100 2000 0    60   ~ 0
 VOUTa[1..7]
-Text Label 3250 7950 2    60   ~ 0
-HV_IN_RTN
-Text Label 3250 7800 2    60   ~ 0
-HV_IN
-Text Label 3250 7550 2    60   ~ 0
-VIN_RTN
-Text Label 3250 7400 2    60   ~ 0
-VIN
-Text Label 3250 7150 2    60   ~ 0
-I2C_SDA
-Text Label 3250 7000 2    60   ~ 0
-I2C_SCL
-$Sheet
-S 3400 6800 1550 1500
-U 594CBBE6
-F0 "PBS4" 60
-F1 "pbv2_7_test_adapters.sch" 60
-F2 "I2C_SCL" I L 3400 7000 60 
-F3 "I2C_SDA" B L 3400 7150 60 
-F4 "HV_IN" I L 3400 7800 60 
-F5 "HV_IN_RTN" O L 3400 7950 60 
-F6 "VIN" I L 3400 7400 60 
-F7 "VIN_RTN" O L 3400 7550 60 
-F8 "VOUT[7..1]" O R 4950 7400 60 
-F9 "VOUT_RTN[7..1]" O R 4950 7550 60 
-F10 "HV_OUT[7..1]" O R 4950 7800 60 
-F11 "HV_OUT_RTN[7..1]" O R 4950 7950 60 
-F12 "BANDGAP[7..1]" O R 4950 8150 60 
-$EndSheet
 Text Label 3250 6150 2    60   ~ 0
 HV_IN_RTN
 Text Label 3250 6000 2    60   ~ 0
@@ -226,16 +197,12 @@ F12 "VOUT[1..7]" O R 4950 3800 60
 $EndSheet
 Text Label 5100 5600 0    60   ~ 0
 VOUTc[1..7]
-Text Label 5100 7400 0    60   ~ 0
-VOUTd[1..7]
 Text Label 5100 2150 0    60   ~ 0
 VOUT_RTNa[1..7]
 Text Label 5100 3950 0    60   ~ 0
 VOUT_RTNb[1..7]
 Text Label 5100 5750 0    60   ~ 0
 VOUT_RTNc[1..7]
-Text Label 5100 7550 0    60   ~ 0
-VOUT_RTNd[1..7]
 $Comp
 L LEMO2 J1
 U 1 1 595266E9
@@ -259,18 +226,12 @@ Text Label 5100 6000 0    60   ~ 0
 HV_OUTc[1..7]
 Text Label 5100 6150 0    60   ~ 0
 HV_OUT_RTNc[1..7]
-Text Label 5100 7800 0    60   ~ 0
-HV_OUTd[1..7]
-Text Label 5100 7950 0    60   ~ 0
-HV_OUT_RTNd[1..7]
 Text Label 5100 2750 0    60   ~ 0
 BANDGAPa[1..7]
 Text Label 5100 4550 0    60   ~ 0
 BANDGAPb[1..7]
 Text Label 5100 6350 0    60   ~ 0
 BANDGAPc[1..7]
-Text Label 5100 8150 0    60   ~ 0
-BANDGAPd[1..7]
 Wire Wire Line
 	1000 900  1500 900 
 Wire Wire Line
@@ -327,18 +288,6 @@ Wire Wire Line
 Wire Wire Line
 	3400 2550 3250 2550
 Wire Wire Line
-	3400 7950 3250 7950
-Wire Wire Line
-	3400 7800 3250 7800
-Wire Wire Line
-	3400 7550 3250 7550
-Wire Wire Line
-	3400 7400 3250 7400
-Wire Wire Line
-	3400 7150 3250 7150
-Wire Wire Line
-	3400 7000 3250 7000
-Wire Wire Line
 	3400 6150 3250 6150
 Wire Wire Line
 	3400 6000 3250 6000
@@ -371,15 +320,11 @@ Wire Bus Line
 Wire Bus Line
 	5100 5600 4950 5600
 Wire Bus Line
-	5100 7400 4950 7400
-Wire Bus Line
 	4950 2150 5100 2150
 Wire Bus Line
 	4950 3950 5100 3950
 Wire Bus Line
 	4950 5750 5100 5750
-Wire Bus Line
-	4950 7550 5100 7550
 Wire Wire Line
 	1150 2600 1350 2600
 Wire Bus Line
@@ -395,15 +340,9 @@ Wire Bus Line
 Wire Bus Line
 	4950 6150 5100 6150
 Wire Bus Line
-	5100 7800 4950 7800
-Wire Bus Line
-	4950 7950 5100 7950
-Wire Bus Line
 	4950 2750 5100 2750
 Wire Bus Line
 	4950 4550 5100 4550
-Wire Bus Line
-	4950 8150 5100 8150
 $Comp
 L CONN_02X03 J11
 U 1 1 599246DE
@@ -1139,249 +1078,4 @@ Text Label 12450 4550 0    60   ~ 0
 VIN_RTN
 Text Label 12450 4450 0    60   ~ 0
 HV_OUT_RTNc7
-$Comp
-L CONN_02X03 J41
-U 1 1 59933617
-P 14200 1450
-F 0 "J41" H 14200 1650 50  0000 C CNN
-F 1 "CONN_02X03" H 14200 1250 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_MegaFit_2x03x5.70mm_Straight" H 14200 250 50  0001 C CNN
-F 3 "" H 14200 250 50  0001 C CNN
-	1    14200 1450
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	13850 1350 13950 1350
-Text Label 13850 1350 2    60   ~ 0
-BANDGAPd1
-Wire Wire Line
-	14450 1350 14550 1350
-Wire Wire Line
-	13950 1450 13850 1450
-Wire Wire Line
-	13950 1550 13850 1550
-Wire Wire Line
-	14450 1450 14550 1450
-Wire Wire Line
-	14450 1550 14550 1550
-Text Label 13850 1450 2    60   ~ 0
-VOUT_RTNd1
-Text Label 13850 1550 2    60   ~ 0
-HV_OUTd1
-Text Label 14550 1350 0    60   ~ 0
-VOUTd1
-Text Label 14550 1550 0    60   ~ 0
-VIN_RTN
-Text Label 14550 1450 0    60   ~ 0
-HV_OUT_RTNd1
-$Comp
-L CONN_02X03 J42
-U 1 1 59933629
-P 14200 1950
-F 0 "J42" H 14200 2150 50  0000 C CNN
-F 1 "CONN_02X03" H 14200 1750 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_MegaFit_2x03x5.70mm_Straight" H 14200 750 50  0001 C CNN
-F 3 "" H 14200 750 50  0001 C CNN
-	1    14200 1950
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	13850 1850 13950 1850
-Text Label 13850 1850 2    60   ~ 0
-BANDGAPd2
-Wire Wire Line
-	14450 1850 14550 1850
-Wire Wire Line
-	13950 1950 13850 1950
-Wire Wire Line
-	13950 2050 13850 2050
-Wire Wire Line
-	14450 1950 14550 1950
-Wire Wire Line
-	14450 2050 14550 2050
-Text Label 13850 1950 2    60   ~ 0
-VOUT_RTNd2
-Text Label 13850 2050 2    60   ~ 0
-HV_OUTd2
-Text Label 14550 1850 0    60   ~ 0
-VOUTd2
-Text Label 14550 2050 0    60   ~ 0
-VIN_RTN
-Text Label 14550 1950 0    60   ~ 0
-HV_OUT_RTNd2
-$Comp
-L CONN_02X03 J43
-U 1 1 5993363B
-P 14200 2450
-F 0 "J43" H 14200 2650 50  0000 C CNN
-F 1 "CONN_02X03" H 14200 2250 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_MegaFit_2x03x5.70mm_Straight" H 14200 1250 50  0001 C CNN
-F 3 "" H 14200 1250 50  0001 C CNN
-	1    14200 2450
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	13850 2350 13950 2350
-Text Label 13850 2350 2    60   ~ 0
-BANDGAPd3
-Wire Wire Line
-	14450 2350 14550 2350
-Wire Wire Line
-	13950 2450 13850 2450
-Wire Wire Line
-	13950 2550 13850 2550
-Wire Wire Line
-	14450 2450 14550 2450
-Wire Wire Line
-	14450 2550 14550 2550
-Text Label 13850 2450 2    60   ~ 0
-VOUT_RTNd3
-Text Label 13850 2550 2    60   ~ 0
-HV_OUTd3
-Text Label 14550 2350 0    60   ~ 0
-VOUTd3
-Text Label 14550 2550 0    60   ~ 0
-VIN_RTN
-Text Label 14550 2450 0    60   ~ 0
-HV_OUT_RTNd3
-$Comp
-L CONN_02X03 J44
-U 1 1 5993364D
-P 14200 2950
-F 0 "J44" H 14200 3150 50  0000 C CNN
-F 1 "CONN_02X03" H 14200 2750 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_MegaFit_2x03x5.70mm_Straight" H 14200 1750 50  0001 C CNN
-F 3 "" H 14200 1750 50  0001 C CNN
-	1    14200 2950
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	13850 2850 13950 2850
-Text Label 13850 2850 2    60   ~ 0
-BANDGAPd4
-Wire Wire Line
-	14450 2850 14550 2850
-Wire Wire Line
-	13950 2950 13850 2950
-Wire Wire Line
-	13950 3050 13850 3050
-Wire Wire Line
-	14450 2950 14550 2950
-Wire Wire Line
-	14450 3050 14550 3050
-Text Label 13850 2950 2    60   ~ 0
-VOUT_RTNd4
-Text Label 13850 3050 2    60   ~ 0
-HV_OUTd4
-Text Label 14550 2850 0    60   ~ 0
-VOUTd4
-Text Label 14550 3050 0    60   ~ 0
-VIN_RTN
-Text Label 14550 2950 0    60   ~ 0
-HV_OUT_RTNd4
-$Comp
-L CONN_02X03 J45
-U 1 1 5993365F
-P 14200 3450
-F 0 "J45" H 14200 3650 50  0000 C CNN
-F 1 "CONN_02X03" H 14200 3250 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_MegaFit_2x03x5.70mm_Straight" H 14200 2250 50  0001 C CNN
-F 3 "" H 14200 2250 50  0001 C CNN
-	1    14200 3450
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	13850 3350 13950 3350
-Text Label 13850 3350 2    60   ~ 0
-BANDGAPd5
-Wire Wire Line
-	14450 3350 14550 3350
-Wire Wire Line
-	13950 3450 13850 3450
-Wire Wire Line
-	13950 3550 13850 3550
-Wire Wire Line
-	14450 3450 14550 3450
-Wire Wire Line
-	14450 3550 14550 3550
-Text Label 13850 3450 2    60   ~ 0
-VOUT_RTNd5
-Text Label 13850 3550 2    60   ~ 0
-HV_OUTd5
-Text Label 14550 3350 0    60   ~ 0
-VOUTd5
-Text Label 14550 3550 0    60   ~ 0
-VIN_RTN
-Text Label 14550 3450 0    60   ~ 0
-HV_OUT_RTNd5
-$Comp
-L CONN_02X03 J46
-U 1 1 59933671
-P 14200 3950
-F 0 "J46" H 14200 4150 50  0000 C CNN
-F 1 "CONN_02X03" H 14200 3750 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_MegaFit_2x03x5.70mm_Straight" H 14200 2750 50  0001 C CNN
-F 3 "" H 14200 2750 50  0001 C CNN
-	1    14200 3950
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	13850 3850 13950 3850
-Text Label 13850 3850 2    60   ~ 0
-BANDGAPd6
-Wire Wire Line
-	14450 3850 14550 3850
-Wire Wire Line
-	13950 3950 13850 3950
-Wire Wire Line
-	13950 4050 13850 4050
-Wire Wire Line
-	14450 3950 14550 3950
-Wire Wire Line
-	14450 4050 14550 4050
-Text Label 13850 3950 2    60   ~ 0
-VOUT_RTNd6
-Text Label 13850 4050 2    60   ~ 0
-HV_OUTd6
-Text Label 14550 3850 0    60   ~ 0
-VOUTd6
-Text Label 14550 4050 0    60   ~ 0
-VIN_RTN
-Text Label 14550 3950 0    60   ~ 0
-HV_OUT_RTNd6
-$Comp
-L CONN_02X03 J47
-U 1 1 59933683
-P 14200 4450
-F 0 "J47" H 14200 4650 50  0000 C CNN
-F 1 "CONN_02X03" H 14200 4250 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_MegaFit_2x03x5.70mm_Straight" H 14200 3250 50  0001 C CNN
-F 3 "" H 14200 3250 50  0001 C CNN
-	1    14200 4450
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	13850 4350 13950 4350
-Text Label 13850 4350 2    60   ~ 0
-BANDGAPd7
-Wire Wire Line
-	14450 4350 14550 4350
-Wire Wire Line
-	13950 4450 13850 4450
-Wire Wire Line
-	13950 4550 13850 4550
-Wire Wire Line
-	14450 4450 14550 4450
-Wire Wire Line
-	14450 4550 14550 4550
-Text Label 13850 4450 2    60   ~ 0
-VOUT_RTNd7
-Text Label 13850 4550 2    60   ~ 0
-HV_OUTd7
-Text Label 14550 4350 0    60   ~ 0
-VOUTd7
-Text Label 14550 4550 0    60   ~ 0
-VIN_RTN
-Text Label 14550 4450 0    60   ~ 0
-HV_OUT_RTNd7
 $EndSCHEMATC

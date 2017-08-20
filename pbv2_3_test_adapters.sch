@@ -49,7 +49,7 @@ S 2800 1000 1300 1450
 U 594A8389
 F0 "PB1" 60
 F1 "pbv2_test_adapter.sch" 60
-F2 "I2C_SCL" I L 2800 1150 60 
+F2 "I2C_SCL" B L 2800 1150 60 
 F3 "I2C_SDA" B L 2800 1300 60 
 F4 "VIN" I L 2800 1600 60 
 F5 "VIN_RTN" O L 2800 1750 60 
@@ -61,56 +61,56 @@ F10 "VOUT" O R 4100 1600 60
 F11 "HV_OUT" O R 4100 1950 60 
 F12 "HV_OUT_RTN" I R 4100 2100 60 
 $EndSheet
-Text Label 7700 1600 0    60   ~ 0
+Text Label 7800 1600 0    60   ~ 0
 I2C_SCL1
-Text Label 7700 1700 0    60   ~ 0
+Text Label 7800 1700 0    60   ~ 0
 I2C_SDA1
-Text Label 6950 1400 2    60   ~ 0
+Text Label 6900 1400 2    60   ~ 0
 VIN1
-Text Label 6950 1200 2    60   ~ 0
+Text Label 6900 1200 2    60   ~ 0
 VIN_RTN1
-Text Label 6950 1000 2    60   ~ 0
+Text Label 6900 1000 2    60   ~ 0
 HV_IN1
-Text Label 6950 1800 2    60   ~ 0
+Text Label 6900 1800 2    60   ~ 0
 HV_IN_RTN1
-Text Label 4200 1600 0    60   ~ 0
+Text Label 4350 1600 0    60   ~ 0
 VOUT1
-Text Label 4200 1750 0    60   ~ 0
+Text Label 4350 1750 0    60   ~ 0
 VOUT_RTN1
-Text Label 4200 1950 0    60   ~ 0
+Text Label 4350 1950 0    60   ~ 0
 HV_OUT1
-Text Label 4200 2100 0    60   ~ 0
+Text Label 4350 2100 0    60   ~ 0
 HV_OUT_RTN1
-Text Label 2650 2300 2    60   ~ 0
+Text Label 2600 2300 2    60   ~ 0
 BANDGAP1
-Text Label 2650 5900 2    60   ~ 0
+Text Label 2600 5900 2    60   ~ 0
 BANDGAP3
-Text Label 4200 5700 0    60   ~ 0
+Text Label 4350 5700 0    60   ~ 0
 HV_OUT_RTN3
-Text Label 4200 5550 0    60   ~ 0
+Text Label 4350 5550 0    60   ~ 0
 HV_OUT3
-Text Label 4200 5350 0    60   ~ 0
+Text Label 4350 5350 0    60   ~ 0
 VOUT_RTN3
-Text Label 4200 5200 0    60   ~ 0
+Text Label 4350 5200 0    60   ~ 0
 VOUT3
-Text Label 2650 5700 2    60   ~ 0
+Text Label 2600 5700 2    60   ~ 0
 HV_IN_RTN3
-Text Label 2650 5550 2    60   ~ 0
+Text Label 2600 5550 2    60   ~ 0
 HV_IN3
-Text Label 2650 5350 2    60   ~ 0
+Text Label 2600 5350 2    60   ~ 0
 VIN_RTN3
-Text Label 2650 5200 2    60   ~ 0
+Text Label 2600 5200 2    60   ~ 0
 VIN3
-Text Label 2700 4900 2    60   ~ 0
+Text Label 2600 4900 2    60   ~ 0
 I2C_SDA3
-Text Label 2700 4750 2    60   ~ 0
+Text Label 2600 4750 2    60   ~ 0
 I2C_SCL3
 $Sheet
 S 2800 4600 1300 1450
 U 594A8521
 F0 "PB3" 60
 F1 "pbv2_test_adapter.sch" 60
-F2 "I2C_SCL" I L 2800 4750 60 
+F2 "I2C_SCL" B L 2800 4750 60 
 F3 "I2C_SDA" B L 2800 4900 60 
 F4 "VIN" I L 2800 5200 60 
 F5 "VIN_RTN" O L 2800 5350 60 
@@ -122,34 +122,34 @@ F10 "VOUT" O R 4100 5200 60
 F11 "HV_OUT" O R 4100 5550 60 
 F12 "HV_OUT_RTN" I R 4100 5700 60 
 $EndSheet
-Text Label 2650 4100 2    60   ~ 0
+Text Label 2600 4100 2    60   ~ 0
 BANDGAP2
-Text Label 4200 3900 0    60   ~ 0
+Text Label 4350 3900 0    60   ~ 0
 HV_OUT_RTN2
-Text Label 4200 3750 0    60   ~ 0
+Text Label 4350 3750 0    60   ~ 0
 HV_OUT2
-Text Label 4200 3550 0    60   ~ 0
+Text Label 4350 3550 0    60   ~ 0
 VOUT_RTN2
-Text Label 4200 3400 0    60   ~ 0
+Text Label 4350 3400 0    60   ~ 0
 VOUT2
-Text Label 2650 3900 2    60   ~ 0
+Text Label 2600 3900 2    60   ~ 0
 HV_IN_RTN2
-Text Label 2650 3750 2    60   ~ 0
+Text Label 2600 3750 2    60   ~ 0
 HV_IN2
-Text Label 2650 3550 2    60   ~ 0
+Text Label 2600 3550 2    60   ~ 0
 VIN_RTN2
-Text Label 2650 3400 2    60   ~ 0
+Text Label 2600 3400 2    60   ~ 0
 VIN2
-Text Label 2700 3100 2    60   ~ 0
+Text Label 2600 3100 2    60   ~ 0
 I2C_SDA2
-Text Label 2700 2950 2    60   ~ 0
+Text Label 2600 2950 2    60   ~ 0
 I2C_SCL2
 $Sheet
 S 2800 2800 1300 1450
 U 594A8411
 F0 "PB2" 60
 F1 "pbv2_test_adapter.sch" 60
-F2 "I2C_SCL" I L 2800 2950 60 
+F2 "I2C_SCL" B L 2800 2950 60 
 F3 "I2C_SDA" B L 2800 3100 60 
 F4 "VIN" I L 2800 3400 60 
 F5 "VIN_RTN" O L 2800 3550 60 
@@ -203,69 +203,69 @@ F 3 "" H 7350 2150 50  0001 C CNN
 	1    7350 2550
 	1    0    0    -1  
 $EndComp
-Text Label 6950 2900 2    60   ~ 0
+Text Label 6900 2900 2    60   ~ 0
 HV_IN_RTN2
-Text Label 6950 2100 2    60   ~ 0
+Text Label 6900 2100 2    60   ~ 0
 HV_IN2
-Text Label 6950 2300 2    60   ~ 0
+Text Label 6900 2300 2    60   ~ 0
 VIN_RTN2
-Text Label 6950 2500 2    60   ~ 0
+Text Label 6900 2500 2    60   ~ 0
 VIN2
-Text Label 6950 4000 2    60   ~ 0
+Text Label 6900 4000 2    60   ~ 0
 HV_IN_RTN3
-Text Label 6950 3200 2    60   ~ 0
+Text Label 6900 3200 2    60   ~ 0
 HV_IN3
-Text Label 6950 3400 2    60   ~ 0
+Text Label 6900 3400 2    60   ~ 0
 VIN_RTN3
-Text Label 6950 3600 2    60   ~ 0
+Text Label 6900 3600 2    60   ~ 0
 VIN3
-Text Label 2650 2100 2    60   ~ 0
+Text Label 2600 2100 2    60   ~ 0
 HV_IN_RTN1
-Text Label 2650 1950 2    60   ~ 0
+Text Label 2600 1950 2    60   ~ 0
 HV_IN1
-Text Label 2650 1750 2    60   ~ 0
+Text Label 2600 1750 2    60   ~ 0
 VIN_RTN1
-Text Label 2650 1600 2    60   ~ 0
+Text Label 2600 1600 2    60   ~ 0
 VIN1
-Text Label 2700 1300 2    60   ~ 0
+Text Label 2600 1300 2    60   ~ 0
 I2C_SDA1
-Text Label 2700 1150 2    60   ~ 0
+Text Label 2600 1150 2    60   ~ 0
 I2C_SCL1
-Text Label 9200 3600 2    60   ~ 0
+Text Label 9100 3600 2    60   ~ 0
 BANDGAP3
-Text Label 9150 3800 2    60   ~ 0
+Text Label 9100 3800 2    60   ~ 0
 VOUT3
-Text Label 9150 4000 2    60   ~ 0
+Text Label 9100 4000 2    60   ~ 0
 VOUT_RTN3
-Text Label 9150 3200 2    60   ~ 0
+Text Label 9100 3200 2    60   ~ 0
 HV_OUT3
-Text Label 9150 3400 2    60   ~ 0
+Text Label 9100 3400 2    60   ~ 0
 HV_OUT_RTN3
-Text Label 9850 3600 0    60   ~ 0
+Text Label 10000 3600 0    60   ~ 0
 VIN_RTN3
-Text Label 9200 1400 2    60   ~ 0
+Text Label 9100 1400 2    60   ~ 0
 BANDGAP1
-Text Label 9150 1600 2    60   ~ 0
+Text Label 9100 1600 2    60   ~ 0
 VOUT1
-Text Label 9150 1800 2    60   ~ 0
+Text Label 9100 1800 2    60   ~ 0
 VOUT_RTN1
-Text Label 9150 1000 2    60   ~ 0
+Text Label 9100 1000 2    60   ~ 0
 HV_OUT1
-Text Label 9150 1200 2    60   ~ 0
+Text Label 9100 1200 2    60   ~ 0
 HV_OUT_RTN1
-Text Label 9850 1400 0    60   ~ 0
+Text Label 10000 1400 0    60   ~ 0
 VIN_RTN1
-Text Label 9200 2500 2    60   ~ 0
+Text Label 9100 2500 2    60   ~ 0
 BANDGAP2
-Text Label 9150 2700 2    60   ~ 0
+Text Label 9100 2700 2    60   ~ 0
 VOUT2
-Text Label 9150 2900 2    60   ~ 0
+Text Label 9100 2900 2    60   ~ 0
 VOUT_RTN2
-Text Label 9150 2100 2    60   ~ 0
+Text Label 9100 2100 2    60   ~ 0
 HV_OUT2
-Text Label 9150 2300 2    60   ~ 0
+Text Label 9100 2300 2    60   ~ 0
 HV_OUT_RTN2
-Text Label 9850 2500 0    60   ~ 0
+Text Label 10000 2500 0    60   ~ 0
 VIN_RTN2
 Wire Wire Line
 	7800 1600 7600 1600
@@ -343,11 +343,7 @@ Wire Wire Line
 	7100 2300 7100 2400
 Wire Wire Line
 	7600 2300 7600 2400
-Wire Wire Line
-	7100 2100 7100 2200
 Connection ~ 7100 2100
-Wire Wire Line
-	7600 2100 7600 2200
 Wire Wire Line
 	7100 3000 7100 2900
 Wire Wire Line
@@ -371,11 +367,7 @@ Wire Wire Line
 	7100 3400 7100 3500
 Wire Wire Line
 	7600 3400 7600 3500
-Wire Wire Line
-	7100 3200 7100 3300
 Connection ~ 7100 3200
-Wire Wire Line
-	7600 3200 7600 3300
 Wire Wire Line
 	7100 4100 7100 4000
 Wire Wire Line
@@ -425,11 +417,7 @@ Wire Wire Line
 	9300 4000 9300 4100
 Wire Wire Line
 	9800 4000 9800 4100
-Wire Wire Line
-	9300 3200 9300 3300
 Connection ~ 9300 3200
-Wire Wire Line
-	9800 3200 9800 3300
 Wire Wire Line
 	9300 3500 9300 3400
 Wire Wire Line
@@ -461,11 +449,7 @@ Wire Wire Line
 	9300 1800 9300 1900
 Wire Wire Line
 	9800 1800 9800 1900
-Wire Wire Line
-	9300 1000 9300 1100
 Connection ~ 9300 1000
-Wire Wire Line
-	9800 1000 9800 1100
 Wire Wire Line
 	9300 1300 9300 1200
 Wire Wire Line
@@ -497,11 +481,7 @@ Wire Wire Line
 	9300 2900 9300 3000
 Wire Wire Line
 	9800 2900 9800 3000
-Wire Wire Line
-	9300 2100 9300 2200
 Connection ~ 9300 2100
-Wire Wire Line
-	9800 2100 9800 2200
 Wire Wire Line
 	9300 2400 9300 2300
 Wire Wire Line
@@ -520,7 +500,7 @@ Connection ~ 8300 3100
 Connection ~ 8300 2000
 Connection ~ 9300 3100
 Wire Wire Line
-	8300 2000 8300 3100
+	8300 3300 8300 1100
 Text Label 8300 3000 0    60   ~ 0
 GND
 Wire Wire Line
@@ -530,13 +510,9 @@ Wire Wire Line
 Wire Wire Line
 	7600 1200 7600 1300
 Wire Wire Line
-	7600 1000 7600 1100
-Wire Wire Line
 	7600 1800 7600 1900
 Wire Wire Line
 	7100 1900 7100 1800
-Wire Wire Line
-	7100 1000 7100 1100
 Connection ~ 7100 1800
 Connection ~ 7100 1000
 Connection ~ 7100 1200
@@ -548,9 +524,9 @@ Wire Wire Line
 Connection ~ 7100 1600
 Wire Wire Line
 	7100 1600 6900 1600
-Text Label 7700 2700 0    60   ~ 0
+Text Label 7800 2700 0    60   ~ 0
 I2C_SCL2
-Text Label 7700 2800 0    60   ~ 0
+Text Label 7800 2800 0    60   ~ 0
 I2C_SDA2
 Text Label 6900 2700 2    60   ~ 0
 VIN_RTN2
@@ -563,10 +539,10 @@ Wire Wire Line
 Connection ~ 7100 2700
 Wire Wire Line
 	7100 2700 6900 2700
-Text Label 7700 3800 0    60   ~ 0
+Text Label 7800 3800 0    60   ~ 0
 I2C_SCL3
-Text Label 7700 3900 0    60   ~ 0
-I2C_SDA2
+Text Label 7800 3900 0    60   ~ 0
+I2C_SDA3
 Text Label 6900 3800 2    60   ~ 0
 VIN_RTN3
 Wire Wire Line
@@ -578,4 +554,19 @@ Wire Wire Line
 Connection ~ 7100 3800
 Wire Wire Line
 	7100 3800 6900 3800
+Connection ~ 8300 1100
+Connection ~ 8300 3300
+Connection ~ 8300 2200
+Wire Wire Line
+	7100 2200 9800 2200
+Connection ~ 9300 2200
+Wire Wire Line
+	7100 1100 9800 1100
+Connection ~ 9300 1100
+Connection ~ 7600 1100
+Connection ~ 7600 2200
+Wire Wire Line
+	7100 3300 9800 3300
+Connection ~ 7600 3300
+Connection ~ 9300 3300
 $EndSCHEMATC

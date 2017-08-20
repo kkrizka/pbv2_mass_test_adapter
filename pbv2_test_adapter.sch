@@ -44,7 +44,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 4950 2400 0    60   Input ~ 0
+Text HLabel 4950 2400 0    60   BiDi ~ 0
 I2C_SCL
 Text HLabel 4950 2600 0    60   BiDi ~ 0
 I2C_SDA

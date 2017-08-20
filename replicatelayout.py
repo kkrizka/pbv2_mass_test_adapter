@@ -6,7 +6,7 @@ board = pcbnew.GetBoard()
 # the internal coorinate space of pcbnew is 10E-6 mm. (a millionth of a mm)
 # the coordinate 121550000 corresponds to 121.550000 
 
-SCALE = 1000000
+SCALE = 25400000
 
 
 if hasattr(pcbnew, "LAYER_ID_COUNT"):
@@ -292,7 +292,7 @@ def place_instances(mainref, pitch):
 #place_instances("Q1", (6.5, 0))
 #place_instances("Q5", (6.5, 0))
 
-place_instances("R1101", (30, 0))
+place_instances("R1101", (1.1, 0))
             
 pcbnew.Refresh();
 

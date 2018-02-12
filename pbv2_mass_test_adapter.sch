@@ -28,7 +28,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:kk_conn
+LIBS:lbl_conn
 LIBS:pbv2_mass_test_adapter-cache
 EELAYER 25 0
 EELAYER END

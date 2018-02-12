@@ -28,13 +28,13 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:kk_conn
+LIBS:lbl_conn
 LIBS:pbv2_mass_test_adapter-cache
 EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 2 37
+Sheet 14 37
 Title "3x PowerBoard Test Frame"
 Date "2017-06-19"
 Rev ""
@@ -174,7 +174,7 @@ AR Path="/599843FA/5996A8E8" Ref="O6"  Part="1"
 AR Path="/599843FC/5996A8E8" Ref="O7"  Part="1" 
 AR Path="/599843FE/5996A8E8" Ref="O8"  Part="1" 
 AR Path="/59984400/5996A8E8" Ref="O9"  Part="1" 
-F 0 "O1" H 9550 4200 50  0000 C CNN
+F 0 "O4" H 9550 4200 50  0000 C CNN
 F 1 "CONN_02X32" V 9550 2550 50  0000 C CNN
 F 2 "Connectors:IDC_Header_Straight_64pins" H 9550 2150 50  0001 C CNN
 F 3 "" H 9550 2150 50  0001 C CNN
@@ -196,7 +196,7 @@ AR Path="/599843FA/5996A6F8" Ref="I6"  Part="1"
 AR Path="/599843FC/5996A6F8" Ref="I7"  Part="1" 
 AR Path="/599843FE/5996A6F8" Ref="I8"  Part="1" 
 AR Path="/59984400/5996A6F8" Ref="I9"  Part="1" 
-F 0 "I1" H 7350 4200 50  0000 C CNN
+F 0 "I4" H 7350 4200 50  0000 C CNN
 F 1 "CONN_02X32" V 7350 2550 50  0000 C CNN
 F 2 "Connectors:IDC_Header_Straight_64pins" H 7350 2150 50  0001 C CNN
 F 3 "" H 7350 2150 50  0001 C CNN

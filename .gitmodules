@@ -1,0 +1,3 @@
+[submodule "library"]
+	path = library
+	url = https://gitlab.cern.ch/berkeleylab/kicad-components.git

@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:pbv2_mass_test_adapter-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -28,13 +29,14 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:lbl_conn
+LIBS:kk_conn
+LIBS:conn_03x32
 LIBS:pbv2_mass_test_adapter-cache
 EELAYER 25 0
 EELAYER END
 $Descr USLedger 17000 11000
 encoding utf-8
-Sheet 1 37
+Sheet 1 31
 Title "PowerBoard Mass Test Frame"
 Date "2017-06-19"
 Rev ""
@@ -51,51 +53,15 @@ F0 "PBS1" 60
 F1 "pbv2_3_test_adapters.sch" 60
 $EndSheet
 $Sheet
-S 3400 3300 1550 1500
-U 599843F1
-F0 "PBS2" 60
-F1 "pbv2_3_test_adapters.sch" 60
-$EndSheet
-$Sheet
-S 3400 5150 1550 1500
-U 599843F4
-F0 "PBS3" 60
-F1 "pbv2_3_test_adapters.sch" 60
-$EndSheet
-$Sheet
 S 5300 1400 1550 1500
 U 599843F6
-F0 "PBS4" 60
-F1 "pbv2_3_test_adapters.sch" 60
-$EndSheet
-$Sheet
-S 5300 3300 1550 1500
-U 599843F8
-F0 "PBS5" 60
-F1 "pbv2_3_test_adapters.sch" 60
-$EndSheet
-$Sheet
-S 5300 5150 1550 1500
-U 599843FA
-F0 "PBS6" 60
+F0 "PBS2" 60
 F1 "pbv2_3_test_adapters.sch" 60
 $EndSheet
 $Sheet
 S 7200 1400 1550 1500
 U 599843FC
-F0 "PBS7" 60
-F1 "pbv2_3_test_adapters.sch" 60
-$EndSheet
-$Sheet
-S 7200 3300 1550 1500
-U 599843FE
-F0 "PBS8" 60
-F1 "pbv2_3_test_adapters.sch" 60
-$EndSheet
-$Sheet
-S 7200 5150 1550 1500
-U 59984400
-F0 "PBS9" 60
+F0 "PBS3" 60
 F1 "pbv2_3_test_adapters.sch" 60
 $EndSheet
 $EndSCHEMATC

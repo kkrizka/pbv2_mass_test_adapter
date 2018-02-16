@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name lbl_conn)(type KiCad)(uri "$(KIPRJMOD)/library/lbl_conn.pretty")(options "")(descr ""))
+)

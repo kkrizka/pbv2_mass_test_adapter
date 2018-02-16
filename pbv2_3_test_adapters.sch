@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 22 31
+Sheet 2 31
 Title "3x PowerBoard Test Frame"
 Date "2017-06-19"
 Rev ""
@@ -601,7 +601,7 @@ P 8700 2500
 AR Path="/5949ECDE/5A874320" Ref="J1"  Part="1" 
 AR Path="/599843F6/5A874320" Ref="J2"  Part="1" 
 AR Path="/599843FC/5A874320" Ref="J3"  Part="1" 
-F 0 "J3" H 8700 4200 50  0000 C CNN
+F 0 "J1" H 8700 4200 50  0000 C CNN
 F 1 "CONN_03X32" V 8850 2550 50  0000 C CNN
 F 2 "lbl_conn:CONN_03X32" H 7800 2550 50  0001 C CNN
 F 3 "" H 7800 2550 50  0001 C CNN
@@ -864,41 +864,41 @@ Text Label 9350 3100 2    60   ~ 0
 VIN
 Text Label 9350 900  2    60   ~ 0
 HV_IN
-Text Label 9350 2800 2    60   ~ 0
-HV_OUT1
-Text Label 9350 2700 2    60   ~ 0
-HV_OUT2
-Text Label 9350 2600 2    60   ~ 0
-HV_OUT3
-Text Label 9350 2500 2    60   ~ 0
-HV_OUT4
-Text Label 9350 2400 2    60   ~ 0
-HV_OUT5
-Text Label 9350 2300 2    60   ~ 0
-HV_OUT6
-Text Label 9350 2200 2    60   ~ 0
-HV_OUT7
-Text Label 9350 2100 2    60   ~ 0
-HV_OUT8
-Text Label 9350 2000 2    60   ~ 0
-HV_OUT9
 Text Label 9350 1900 2    60   ~ 0
-HV_OUT_RTN1
+HV_OUT1
 Text Label 9350 1800 2    60   ~ 0
-HV_OUT_RTN2
+HV_OUT2
 Text Label 9350 1700 2    60   ~ 0
-HV_OUT_RTN3
+HV_OUT3
 Text Label 9350 1600 2    60   ~ 0
-HV_OUT_RTN4
+HV_OUT4
 Text Label 9350 1500 2    60   ~ 0
-HV_OUT_RTN5
+HV_OUT5
 Text Label 9350 1400 2    60   ~ 0
-HV_OUT_RTN6
+HV_OUT6
 Text Label 9350 1300 2    60   ~ 0
-HV_OUT_RTN7
+HV_OUT7
 Text Label 9350 1200 2    60   ~ 0
-HV_OUT_RTN8
+HV_OUT8
 Text Label 9350 1100 2    60   ~ 0
+HV_OUT9
+Text Label 9350 2800 2    60   ~ 0
+HV_OUT_RTN1
+Text Label 9350 2700 2    60   ~ 0
+HV_OUT_RTN2
+Text Label 9350 2600 2    60   ~ 0
+HV_OUT_RTN3
+Text Label 9350 2500 2    60   ~ 0
+HV_OUT_RTN4
+Text Label 9350 2400 2    60   ~ 0
+HV_OUT_RTN5
+Text Label 9350 2300 2    60   ~ 0
+HV_OUT_RTN6
+Text Label 9350 2200 2    60   ~ 0
+HV_OUT_RTN7
+Text Label 9350 2100 2    60   ~ 0
+HV_OUT_RTN8
+Text Label 9350 2000 2    60   ~ 0
 HV_OUT_RTN9
 NoConn ~ 8450 4000
 NoConn ~ 8450 3900

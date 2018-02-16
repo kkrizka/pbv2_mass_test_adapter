@@ -804,8 +804,6 @@ Text Label 7550 2700 2    60   ~ 0
 VIN_RTN
 Text Label 7550 2800 2    60   ~ 0
 VIN_RTN
-Text Label 7550 2900 2    60   ~ 0
-VIN_RTN
 Text Label 8450 2700 2    60   ~ 0
 VIN_RTN
 Text Label 8450 2800 2    60   ~ 0
@@ -964,4 +962,6 @@ Text Label 7550 1100 2    60   ~ 0
 VOUT_RTN8
 Text Label 7550 900  2    60   ~ 0
 VOUT_RTN9
+Text Label 7550 2900 2    60   ~ 0
+HV_IN_RTN
 $EndSCHEMATC

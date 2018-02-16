@@ -800,9 +800,9 @@ Wire Wire Line
 	9400 3900 9350 3900
 Wire Wire Line
 	9400 4000 9350 4000
-Text Label 7550 2700 2    60   ~ 0
-VIN_RTN
 Text Label 7550 2800 2    60   ~ 0
+VIN_RTN
+Text Label 7550 2900 2    60   ~ 0
 VIN_RTN
 Text Label 8450 2700 2    60   ~ 0
 VIN_RTN
@@ -926,42 +926,42 @@ Text Label 9350 1400 2    60   ~ 0
 HV_OUT_RTN8
 Text Label 9350 1200 2    60   ~ 0
 HV_OUT_RTN9
-Text Label 7550 2600 2    60   ~ 0
-VOUT1
-Text Label 7550 2400 2    60   ~ 0
-VOUT2
-Text Label 7550 2200 2    60   ~ 0
-VOUT3
-Text Label 7550 2000 2    60   ~ 0
-VOUT4
-Text Label 7550 1800 2    60   ~ 0
-VOUT5
-Text Label 7550 1600 2    60   ~ 0
-VOUT6
-Text Label 7550 1400 2    60   ~ 0
-VOUT7
-Text Label 7550 1200 2    60   ~ 0
-VOUT8
-Text Label 7550 1000 2    60   ~ 0
-VOUT9
-Text Label 7550 2500 2    60   ~ 0
-VOUT_RTN1
-Text Label 7550 2300 2    60   ~ 0
-VOUT_RTN2
-Text Label 7550 2100 2    60   ~ 0
-VOUT_RTN3
-Text Label 7550 1900 2    60   ~ 0
-VOUT_RTN4
-Text Label 7550 1700 2    60   ~ 0
-VOUT_RTN5
-Text Label 7550 1500 2    60   ~ 0
-VOUT_RTN6
-Text Label 7550 1300 2    60   ~ 0
-VOUT_RTN7
-Text Label 7550 1100 2    60   ~ 0
-VOUT_RTN8
 Text Label 7550 900  2    60   ~ 0
-VOUT_RTN9
-Text Label 7550 2900 2    60   ~ 0
 HV_IN_RTN
+Text Label 7550 1000 2    60   ~ 0
+VOUT_RTN1
+Text Label 7550 1200 2    60   ~ 0
+VOUT_RTN2
+Text Label 7550 1400 2    60   ~ 0
+VOUT_RTN3
+Text Label 7550 1600 2    60   ~ 0
+VOUT_RTN4
+Text Label 7550 1800 2    60   ~ 0
+VOUT_RTN5
+Text Label 7550 2000 2    60   ~ 0
+VOUT_RTN6
+Text Label 7550 2200 2    60   ~ 0
+VOUT_RTN7
+Text Label 7550 2400 2    60   ~ 0
+VOUT_RTN8
+Text Label 7550 2600 2    60   ~ 0
+VOUT_RTN9
+Text Label 7550 1100 2    60   ~ 0
+VOUT1
+Text Label 7550 1300 2    60   ~ 0
+VOUT2
+Text Label 7550 1500 2    60   ~ 0
+VOUT3
+Text Label 7550 1700 2    60   ~ 0
+VOUT4
+Text Label 7550 1900 2    60   ~ 0
+VOUT5
+Text Label 7550 2100 2    60   ~ 0
+VOUT6
+Text Label 7550 2300 2    60   ~ 0
+VOUT7
+Text Label 7550 2500 2    60   ~ 0
+VOUT8
+Text Label 7550 2700 2    60   ~ 0
+VOUT9
 $EndSCHEMATC

@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name lbl_conn)(type KiCad)(uri "$(KIPRJMOD)/library/lbl_conn.pretty")(options "")(descr ""))
+  (lib (name lbl_holes)(type KiCad)(uri "$(KIPRJMOD)/library/lbl_holes.pretty")(options "")(descr ""))
 )

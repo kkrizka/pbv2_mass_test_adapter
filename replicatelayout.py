@@ -88,13 +88,13 @@ class SheetInstance:
             si.addChild(child)
             SheetInstance.__child2sheetinstance[childid].append(si)
 
-        for netcode in range(board.GetNetCount()):
-            net=board.FindNet(netcode)
-            common = SheetInstance.NetIsSheetInternal(net)
-            if common == None:
-                continue
-            si = SheetInstance.__sheetinstances[common]
-            si.addInternalNet(net)
+        # for netcode in range(board.GetNetCount()):
+        #     net=board.FindNet(netcode)
+        #     common = SheetInstance.NetIsSheetInternal(net)
+        #     if common == None:
+        #         continue
+        #     si = SheetInstance.__sheetinstances[common]
+        #     si.addInternalNet(net)
         
     @staticmethod
     def GetSheetInstanceForModule(child):
@@ -300,10 +300,4 @@ def place_instances(mainref, pitch, rowmax=1000, rowsize=4.0):
 #place_instances("Q1", (6.5, 0))
 #place_instances("Q5", (6.5, 0))
 
-#place_instances("W1109", (1.1, 0), rowmax=9, rowsize=4.0)
-#pcbnew.Refresh();
-
-
-pivotmod = board.FindModuleByReference('W1109')
-sheetinstance = SheetInstance.GetSheetInstanceForModule(pivotmod)
-print(sheetinstance)
+place_instances("W1109", (1.1, 0), rowmax=9, rowsize=4.0)

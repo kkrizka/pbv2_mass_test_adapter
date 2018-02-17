@@ -1,6 +1,8 @@
 import pdb
 import pcbnew
 
+from math import *
+
 board = pcbnew.GetBoard()
 
 # the internal coorinate space of pcbnew is 10E-6 mm. (a millionth of a mm)
@@ -85,12 +87,14 @@ class SheetInstance:
             si = SheetInstance.__sheetinstances[sheetid]
             si.addChild(child)
             SheetInstance.__child2sheetinstance[childid].append(si)
-        # for net in board.GetNetsByNetcode().values():
-        #     common = SheetInstance.NetIsSheetInternal(net)
-        #     if common == None:
-        #         continue
-        #     si = SheetInstance.__sheetinstances[common]
-        #     si.addInternalNet(net)
+
+        for netcode in range(board.GetNetCount()):
+            net=board.FindNet(netcode)
+            common = SheetInstance.NetIsSheetInternal(net)
+            if common == None:
+                continue
+            si = SheetInstance.__sheetinstances[common]
+            si.addInternalNet(net)
         
     @staticmethod
     def GetSheetInstanceForModule(child):
@@ -112,6 +116,7 @@ class SheetInstance:
         retval += ", ".join([m.GetReference() for m in self.children.values()])
         retval += "} internalnets: {"
         retval += ", ".join([n.GetNetname() for n in self.internalnets.values()])
+        retval += "}"
         return retval
         
     def addChild(self, child):
@@ -218,9 +223,10 @@ def replicate_sheet_trackst(fromnet, tonet, offset):
         newzone.Hatch()
 
 
-def place_instances(mainref, pitch):
+def place_instances(mainref, pitch, rowmax=1000, rowsize=4.0):
     
     pitch = (pitch[0] * SCALE, pitch[1] * SCALE)
+    rowsize=rowsize*SCALE
     
     pivotmod = board.FindModuleByReference(mainref)
 
@@ -259,13 +265,15 @@ def place_instances(mainref, pitch):
         #print("placing instance {} {}".format(idx, si.id))
         if idx == 0:
             continue
+        row=floor(idx/rowmax)
+        col=idx-rowmax*row
 
         #first move the modules
         for peer in si.getChildren():            
             sheetid, childid = SheetInstance.GetSheetChildId(peer)
             newposition = basepositions[childid]
-            newposition = (int(newposition[0] + idx*pitch[0]),
-                           int(newposition[1] + idx*pitch[1]))
+            newposition = (int(newposition[0] + col*pitch[0]),
+                           int(newposition[1] + col*pitch[1] + row*rowsize))
             #print("moving peer {} to {},{}".format(peer.GetReference(), newposition[0], newposition[1]))
             if (peer.IsFlipped() != basepositions[childid][3]):
                 peer.Flip(peer.GetPosition())
@@ -292,8 +300,10 @@ def place_instances(mainref, pitch):
 #place_instances("Q1", (6.5, 0))
 #place_instances("Q5", (6.5, 0))
 
-place_instances("W1109", (1.1, 0))
-            
-pcbnew.Refresh();
+#place_instances("W1109", (1.1, 0), rowmax=9, rowsize=4.0)
+#pcbnew.Refresh();
 
 
+pivotmod = board.FindModuleByReference('W1109')
+sheetinstance = SheetInstance.GetSheetInstanceForModule(pivotmod)
+print(sheetinstance)

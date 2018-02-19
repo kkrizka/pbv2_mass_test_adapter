@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 2 31
+Sheet 22 31
 Title "3x PowerBoard Test Frame"
 Date "2017-06-19"
 Rev ""
@@ -188,7 +188,7 @@ P 8700 2500
 AR Path="/5949ECDE/5A874320" Ref="J1"  Part="1" 
 AR Path="/599843F6/5A874320" Ref="J2"  Part="1" 
 AR Path="/599843FC/5A874320" Ref="J3"  Part="1" 
-F 0 "J1" H 8700 4200 50  0000 C CNN
+F 0 "J3" H 8700 4200 50  0000 C CNN
 F 1 "CONN_03X32" V 8850 2550 50  0000 C CNN
 F 2 "lbl_conn:CONN_03X32" H 7800 2550 50  0001 C CNN
 F 3 "" H 7800 2550 50  0001 C CNN

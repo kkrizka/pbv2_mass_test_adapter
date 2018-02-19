@@ -241,14 +241,20 @@ def place_instances(mainref, pitch, rowmax=1000, rowsize=4.0):
     
     print("children of the same instance as {}: {}".format(mainref,
                                                            ",".join([m.GetReference() for m in sheetinstance.getChildren()])))
-    
+
     basepositions = {}
+    baserefpositions = {}
     for mod in sheetinstance.getChildren():
         sheetid, childid = SheetInstance.GetSheetChildId(mod)
         basepositions[childid] = (mod.GetPosition().x,
                                   mod.GetPosition().y,
                                   mod.GetOrientation(),
                                   mod.IsFlipped())  
+
+        ref=mod.Reference()
+        baserefpositions[childid] = (ref.GetPosition().x,
+                                     ref.GetPosition().y,
+                                     ref.GetOrientation())  
 
     print("basepositions {}".format(str(basepositions)))
 
@@ -281,6 +287,14 @@ def place_instances(mainref, pitch, rowmax=1000, rowsize=4.0):
             peer.SetPosition(pcbnew.wxPoint(*newposition))
             peer.SetOrientation(basepositions[childid][2])
 
+            peerref=peer.Reference()
+            newposition = baserefpositions[childid]
+            newposition = (int(newposition[0] + col*pitch[0]),
+                           int(newposition[1] + col*pitch[1] + row*rowsize))
+
+            peerref.SetPosition(pcbnew.wxPoint(*newposition))
+            peerref.SetOrientation(basepositions[childid][2])
+            
         #copy the nets
         for fromnetid, fromnet in sheetinstance.internalnets.items():
             if fromnetid not in si.internalnets:

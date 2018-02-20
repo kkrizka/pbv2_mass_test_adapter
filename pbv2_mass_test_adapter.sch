@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr USLedger 17000 11000
 encoding utf-8
-Sheet 1 31
+Sheet 1 11
 Title "PowerBoard Mass Test Frame"
 Date "2017-06-19"
 Rev ""

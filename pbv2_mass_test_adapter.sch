@@ -51,16 +51,4 @@ U 5949ECDE
 F0 "PBS1" 60
 F1 "pbv2_3_test_adapters.sch" 60
 $EndSheet
-$Sheet
-S 5300 1400 1550 1500
-U 599843F6
-F0 "PBS2" 60
-F1 "pbv2_3_test_adapters.sch" 60
-$EndSheet
-$Sheet
-S 7200 1400 1550 1500
-U 599843FC
-F0 "PBS3" 60
-F1 "pbv2_3_test_adapters.sch" 60
-$EndSheet
 $EndSCHEMATC

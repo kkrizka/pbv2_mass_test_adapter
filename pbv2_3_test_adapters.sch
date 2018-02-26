@@ -181,64 +181,44 @@ F10 "VOUT" O R 8400 5250 60
 F11 "HV_OUT" O R 8400 5650 60 
 F12 "HV_OUT_RTN" I R 8400 5800 60 
 $EndSheet
-$Comp
-L CONN_03X32 J1
-U 1 1 5A874320
-P 8700 2500
-AR Path="/5949ECDE/5A874320" Ref="J1"  Part="1" 
-AR Path="/599843F6/5A874320" Ref="J2"  Part="1" 
-AR Path="/599843FC/5A874320" Ref="J3"  Part="1" 
-F 0 "J1" H 8700 4200 50  0000 C CNN
-F 1 "CONN_03X32" V 8850 2550 50  0000 C CNN
-F 2 "lbl_conn:CONN_03X32" H 7800 2550 50  0001 C CNN
-F 3 "" H 7800 2550 50  0001 C CNN
-	1    8700 2500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7600 900  7550 900 
-Wire Wire Line
-	7600 1000 7550 1000
-Wire Wire Line
-	7600 1100 7550 1100
-Wire Wire Line
-	7600 1200 7550 1200
-Wire Wire Line
-	7600 1300 7550 1300
-Wire Wire Line
-	7600 1400 7550 1400
-Wire Wire Line
-	7600 1500 7550 1500
-Wire Wire Line
-	7600 1600 7550 1600
-Wire Wire Line
-	7600 1700 7550 1700
-Wire Wire Line
-	7600 1800 7550 1800
-Wire Wire Line
-	7600 1900 7550 1900
-Wire Wire Line
-	7600 2000 7550 2000
-Wire Wire Line
-	7600 2100 7550 2100
-Wire Wire Line
-	7600 2200 7550 2200
-Wire Wire Line
-	7600 2300 7550 2300
-Wire Wire Line
-	7600 2400 7550 2400
-Wire Wire Line
-	7600 2500 7550 2500
-Wire Wire Line
-	7600 2600 7550 2600
 Wire Wire Line
 	7600 2700 7550 2700
 Wire Wire Line
 	7600 2800 7550 2800
 Wire Wire Line
-	7600 2900 7550 2900
+	7600 2500 7550 2500
 Wire Wire Line
-	7600 3000 7550 3000
+	7600 2600 7550 2600
+Wire Wire Line
+	7600 2300 7550 2300
+Wire Wire Line
+	7600 2400 7550 2400
+Wire Wire Line
+	7600 2100 7550 2100
+Wire Wire Line
+	7600 2200 7550 2200
+Wire Wire Line
+	7600 1900 7550 1900
+Wire Wire Line
+	7600 2000 7550 2000
+Wire Wire Line
+	7600 1700 7550 1700
+Wire Wire Line
+	7600 1800 7550 1800
+Wire Wire Line
+	7600 1500 7550 1500
+Wire Wire Line
+	7600 1600 7550 1600
+Wire Wire Line
+	7600 1300 7550 1300
+Wire Wire Line
+	7600 1400 7550 1400
+Wire Wire Line
+	7600 1100 7550 1100
+Wire Wire Line
+	7600 1200 7550 1200
 Wire Wire Line
 	7600 3100 7550 3100
 Wire Wire Line
@@ -248,77 +228,17 @@ Wire Wire Line
 Wire Wire Line
 	7600 3400 7550 3400
 Wire Wire Line
-	7600 3500 7550 3500
-Wire Wire Line
-	7600 3600 7550 3600
-Wire Wire Line
-	7600 3700 7550 3700
-Wire Wire Line
-	7600 3800 7550 3800
-Wire Wire Line
-	7600 3900 7550 3900
-Wire Wire Line
-	7600 4000 7550 4000
-Wire Wire Line
-	8500 900  8450 900 
-Wire Wire Line
-	8500 1000 8450 1000
-Wire Wire Line
 	8500 1100 8450 1100
 Wire Wire Line
-	8500 1200 8450 1200
-Wire Wire Line
-	8500 1300 8450 1300
-Wire Wire Line
-	8500 1400 8450 1400
-Wire Wire Line
-	8500 1500 8450 1500
-Wire Wire Line
-	8500 1600 8450 1600
-Wire Wire Line
-	8500 1700 8450 1700
-Wire Wire Line
-	8500 1800 8450 1800
-Wire Wire Line
-	8500 1900 8450 1900
-Wire Wire Line
-	8500 2000 8450 2000
-Wire Wire Line
-	8500 2100 8450 2100
-Wire Wire Line
-	8500 2200 8450 2200
-Wire Wire Line
-	8500 2300 8450 2300
-Wire Wire Line
-	8500 2400 8450 2400
-Wire Wire Line
-	8500 2500 8450 2500
-Wire Wire Line
-	8500 2600 8450 2600
-Wire Wire Line
-	8500 2700 8450 2700
-Wire Wire Line
-	8500 2800 8450 2800
-Wire Wire Line
-	8500 2900 8450 2900
-Wire Wire Line
-	8500 3000 8450 3000
+	9400 3100 9350 3100
 Wire Wire Line
 	8500 3100 8450 3100
 Wire Wire Line
 	8500 3200 8450 3200
 Wire Wire Line
-	8500 3300 8450 3300
+	8400 3300 8500 3300
 Wire Wire Line
-	8500 3400 8450 3400
-Wire Wire Line
-	8500 3500 8450 3500
-Wire Wire Line
-	8500 3600 8450 3600
-Wire Wire Line
-	8500 3700 8450 3700
-Wire Wire Line
-	8500 3800 8450 3800
+	8400 3400 8500 3400
 Wire Wire Line
 	8500 3900 8450 3900
 Wire Wire Line
@@ -364,118 +284,45 @@ Wire Wire Line
 Wire Wire Line
 	9400 2800 9350 2800
 Wire Wire Line
-	9400 2900 9350 2900
-Wire Wire Line
-	9400 3000 9350 3000
-Wire Wire Line
-	9400 3100 9350 3100
-Wire Wire Line
 	9400 3200 9350 3200
 Wire Wire Line
 	9400 3300 9350 3300
 Wire Wire Line
 	9400 3400 9350 3400
 Wire Wire Line
-	9400 3500 9350 3500
-Wire Wire Line
-	9400 3600 9350 3600
-Wire Wire Line
-	9400 3700 9350 3700
-Wire Wire Line
-	9400 3800 9350 3800
-Wire Wire Line
-	9400 3900 9350 3900
-Wire Wire Line
-	9400 4000 9350 4000
-Text Label 7550 2800 2    60   ~ 0
-VIN_RTN
-Text Label 7550 2900 2    60   ~ 0
-VIN_RTN
-Text Label 8450 2700 2    60   ~ 0
-VIN_RTN
-Text Label 8450 2800 2    60   ~ 0
-VIN_RTN
-Text Label 9350 2900 2    60   ~ 0
-VIN_RTN
-Text Label 8450 2900 2    60   ~ 0
-VIN_RTN
-Text Label 7550 3000 2    60   ~ 0
-VIN
+	8500 1200 8450 1200
 Text Label 7550 3100 2    60   ~ 0
-VIN
-Text Label 8450 3000 2    60   ~ 0
-VIN
-Text Label 8450 3100 2    60   ~ 0
-VIN
-Text Label 9350 3000 2    60   ~ 0
-VIN
+VIN_RTN
+Text Label 7550 3200 2    60   ~ 0
+VIN_RTN
 Text Label 9350 3100 2    60   ~ 0
+VIN_RTN
+Text Label 8450 3100 2    60   ~ 0
+VIN_RTN
+Text Label 9350 3200 2    60   ~ 0
+VIN_RTN
+Text Label 8450 3200 2    60   ~ 0
+VIN_RTN
+Text Label 7550 3300 2    60   ~ 0
+VIN
+Text Label 7550 3400 2    60   ~ 0
+VIN
+Text Label 8400 3300 2    60   ~ 0
+VIN
+Text Label 8400 3400 2    60   ~ 0
+VIN
+Text Label 9350 3300 2    60   ~ 0
+VIN
+Text Label 9350 3400 2    60   ~ 0
 VIN
 Text Label 9350 900  2    60   ~ 0
 HV_IN
 Text Label 9350 2800 2    60   ~ 0
 HV_OUT_RTN1
-NoConn ~ 8450 3800
-NoConn ~ 8450 3700
-NoConn ~ 8450 3600
-NoConn ~ 8450 3500
-NoConn ~ 8450 3400
-NoConn ~ 8450 3300
-NoConn ~ 8450 3200
-NoConn ~ 8450 2600
-NoConn ~ 8450 2500
-NoConn ~ 8450 2400
-NoConn ~ 8450 2300
-NoConn ~ 8450 2200
-NoConn ~ 8450 2100
-NoConn ~ 8450 2000
-NoConn ~ 8450 1900
-NoConn ~ 8450 1800
-NoConn ~ 8450 1700
-NoConn ~ 8450 1600
-NoConn ~ 8450 1500
-NoConn ~ 8450 1400
-NoConn ~ 8450 1300
-NoConn ~ 8450 1200
-NoConn ~ 8450 1100
-NoConn ~ 8450 1000
-NoConn ~ 8450 900 
 NoConn ~ 9350 1000
-Text Label 9350 4000 2    60   ~ 0
-I2C_SCL1
-Text Label 9350 3900 2    60   ~ 0
-I2C_SCL2
-Text Label 9350 3800 2    60   ~ 0
-I2C_SCL3
-Text Label 9350 3700 2    60   ~ 0
-I2C_SCL4
-Text Label 9350 3600 2    60   ~ 0
-I2C_SCL5
-Text Label 9350 3500 2    60   ~ 0
-I2C_SCL6
-Text Label 9350 3400 2    60   ~ 0
-I2C_SCL7
-Text Label 9350 3300 2    60   ~ 0
-I2C_SCL8
-Text Label 9350 3200 2    60   ~ 0
+Text Label 8450 1200 2    60   ~ 0
 I2C_SCL9
-Text Label 7550 4000 2    60   ~ 0
-I2C_SDA1
-Text Label 7550 3900 2    60   ~ 0
-I2C_SDA2
-Text Label 7550 3800 2    60   ~ 0
-I2C_SDA3
-Text Label 7550 3700 2    60   ~ 0
-I2C_SDA4
-Text Label 7550 3600 2    60   ~ 0
-I2C_SDA5
-Text Label 7550 3500 2    60   ~ 0
-I2C_SDA6
-Text Label 7550 3400 2    60   ~ 0
-I2C_SDA7
-Text Label 7550 3300 2    60   ~ 0
-I2C_SDA8
-Text Label 7550 3200 2    60   ~ 0
+Text Label 8450 1100 2    60   ~ 0
 I2C_SDA9
 Text Label 9350 2700 2    60   ~ 0
 HV_OUT1
@@ -513,41 +360,41 @@ Text Label 9350 1200 2    60   ~ 0
 HV_OUT_RTN9
 Text Label 7550 900  2    60   ~ 0
 HV_IN_RTN
-Text Label 7550 1000 2    60   ~ 0
-VOUT_RTN1
-Text Label 7550 1200 2    60   ~ 0
-VOUT_RTN2
-Text Label 7550 1400 2    60   ~ 0
-VOUT_RTN3
-Text Label 7550 1600 2    60   ~ 0
-VOUT_RTN4
-Text Label 7550 1800 2    60   ~ 0
-VOUT_RTN5
-Text Label 7550 2000 2    60   ~ 0
-VOUT_RTN6
-Text Label 7550 2200 2    60   ~ 0
-VOUT_RTN7
-Text Label 7550 2400 2    60   ~ 0
-VOUT_RTN8
-Text Label 7550 2600 2    60   ~ 0
-VOUT_RTN9
-Text Label 7550 1100 2    60   ~ 0
-VOUT1
-Text Label 7550 1300 2    60   ~ 0
-VOUT2
-Text Label 7550 1500 2    60   ~ 0
-VOUT3
-Text Label 7550 1700 2    60   ~ 0
-VOUT4
-Text Label 7550 1900 2    60   ~ 0
-VOUT5
-Text Label 7550 2100 2    60   ~ 0
-VOUT6
-Text Label 7550 2300 2    60   ~ 0
-VOUT7
-Text Label 7550 2500 2    60   ~ 0
-VOUT8
 Text Label 7550 2700 2    60   ~ 0
+VOUT_RTN1
+Text Label 7550 2500 2    60   ~ 0
+VOUT_RTN2
+Text Label 7550 2300 2    60   ~ 0
+VOUT_RTN3
+Text Label 7550 2100 2    60   ~ 0
+VOUT_RTN4
+Text Label 7550 1900 2    60   ~ 0
+VOUT_RTN5
+Text Label 7550 1700 2    60   ~ 0
+VOUT_RTN6
+Text Label 7550 1500 2    60   ~ 0
+VOUT_RTN7
+Text Label 7550 1300 2    60   ~ 0
+VOUT_RTN8
+Text Label 7550 1100 2    60   ~ 0
+VOUT_RTN9
+Text Label 7550 2800 2    60   ~ 0
+VOUT1
+Text Label 7550 2600 2    60   ~ 0
+VOUT2
+Text Label 7550 2400 2    60   ~ 0
+VOUT3
+Text Label 7550 2200 2    60   ~ 0
+VOUT4
+Text Label 7550 2000 2    60   ~ 0
+VOUT5
+Text Label 7550 1800 2    60   ~ 0
+VOUT6
+Text Label 7550 1600 2    60   ~ 0
+VOUT7
+Text Label 7550 1400 2    60   ~ 0
+VOUT8
+Text Label 7550 1200 2    60   ~ 0
 VOUT9
 Wire Wire Line
 	1200 850  1150 850 
@@ -966,4 +813,107 @@ Text Label 8450 4000 2    60   ~ 0
 coil
 Text Label 8450 3900 2    60   ~ 0
 coil
+Wire Wire Line
+	8500 1300 8450 1300
+Wire Wire Line
+	8500 1400 8450 1400
+Wire Wire Line
+	8500 1500 8450 1500
+Wire Wire Line
+	8500 1600 8450 1600
+Wire Wire Line
+	8500 1700 8450 1700
+Wire Wire Line
+	8500 1800 8450 1800
+Wire Wire Line
+	8500 1900 8450 1900
+Wire Wire Line
+	8500 2000 8450 2000
+Wire Wire Line
+	8500 2100 8450 2100
+Wire Wire Line
+	8500 2200 8450 2200
+Wire Wire Line
+	8500 2300 8450 2300
+Wire Wire Line
+	8500 2400 8450 2400
+Wire Wire Line
+	8500 2500 8450 2500
+Wire Wire Line
+	8500 2600 8450 2600
+Wire Wire Line
+	8500 2700 8450 2700
+Wire Wire Line
+	8500 2800 8450 2800
+Text Label 8450 2800 2    60   ~ 0
+I2C_SCL1
+Text Label 8450 2600 2    60   ~ 0
+I2C_SCL2
+Text Label 8450 2400 2    60   ~ 0
+I2C_SCL3
+Text Label 8450 2200 2    60   ~ 0
+I2C_SCL4
+Text Label 8450 2000 2    60   ~ 0
+I2C_SCL5
+Text Label 8450 1800 2    60   ~ 0
+I2C_SCL6
+Text Label 8450 1600 2    60   ~ 0
+I2C_SCL7
+Text Label 8450 1400 2    60   ~ 0
+I2C_SCL8
+Text Label 8450 2700 2    60   ~ 0
+I2C_SDA1
+Text Label 8450 2500 2    60   ~ 0
+I2C_SDA2
+Text Label 8450 2300 2    60   ~ 0
+I2C_SDA3
+Text Label 8450 2100 2    60   ~ 0
+I2C_SDA4
+Text Label 8450 1900 2    60   ~ 0
+I2C_SDA5
+Text Label 8450 1700 2    60   ~ 0
+I2C_SDA6
+Text Label 8450 1500 2    60   ~ 0
+I2C_SDA7
+Text Label 8450 1300 2    60   ~ 0
+I2C_SDA8
+$Comp
+L CONN_03X32 J1
+U 1 1 5A874320
+P 8700 2500
+AR Path="/5949ECDE/5A874320" Ref="J1"  Part="1" 
+AR Path="/599843F6/5A874320" Ref="J2"  Part="1" 
+AR Path="/599843FC/5A874320" Ref="J3"  Part="1" 
+F 0 "J1" H 8700 4200 50  0000 C CNN
+F 1 "CONN_03X32" V 8850 2550 50  0000 C CNN
+F 2 "lbl_conn:CONN_03X32" H 7800 2550 50  0001 C CNN
+F 3 "" H 7800 2550 50  0001 C CNN
+	1    8700 2500
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8500 2900
+NoConn ~ 8500 3000
+NoConn ~ 8500 3500
+NoConn ~ 8500 3600
+NoConn ~ 8500 3700
+NoConn ~ 8500 3800
+NoConn ~ 7600 2900
+NoConn ~ 7600 3000
+NoConn ~ 7600 3500
+NoConn ~ 7600 3600
+NoConn ~ 7600 3700
+NoConn ~ 7600 3800
+NoConn ~ 7600 3900
+NoConn ~ 7600 4000
+NoConn ~ 9400 2900
+NoConn ~ 9400 3000
+NoConn ~ 9400 3500
+NoConn ~ 9400 3600
+NoConn ~ 9400 3700
+NoConn ~ 9400 3800
+NoConn ~ 9400 3900
+NoConn ~ 9400 4000
+NoConn ~ 8500 900 
+NoConn ~ 8500 1000
+NoConn ~ 7600 1000
 $EndSCHEMATC

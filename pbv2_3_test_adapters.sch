@@ -184,41 +184,41 @@ $EndSheet
 Wire Wire Line
 	7600 900  7550 900 
 Wire Wire Line
-	7600 2700 7550 2700
+	7600 1100 7550 1100
 Wire Wire Line
-	7600 2800 7550 2800
-Wire Wire Line
-	7600 2500 7550 2500
-Wire Wire Line
-	7600 2600 7550 2600
-Wire Wire Line
-	7600 2300 7550 2300
-Wire Wire Line
-	7600 2400 7550 2400
-Wire Wire Line
-	7600 2100 7550 2100
-Wire Wire Line
-	7600 2200 7550 2200
-Wire Wire Line
-	7600 1900 7550 1900
-Wire Wire Line
-	7600 2000 7550 2000
-Wire Wire Line
-	7600 1700 7550 1700
-Wire Wire Line
-	7600 1800 7550 1800
-Wire Wire Line
-	7600 1500 7550 1500
-Wire Wire Line
-	7600 1600 7550 1600
+	7600 1200 7550 1200
 Wire Wire Line
 	7600 1300 7550 1300
 Wire Wire Line
 	7600 1400 7550 1400
 Wire Wire Line
-	7600 1100 7550 1100
+	7600 1500 7550 1500
 Wire Wire Line
-	7600 1200 7550 1200
+	7600 1600 7550 1600
+Wire Wire Line
+	7600 1700 7550 1700
+Wire Wire Line
+	7600 1800 7550 1800
+Wire Wire Line
+	7600 1900 7550 1900
+Wire Wire Line
+	7600 2000 7550 2000
+Wire Wire Line
+	7600 2100 7550 2100
+Wire Wire Line
+	7600 2200 7550 2200
+Wire Wire Line
+	7600 2300 7550 2300
+Wire Wire Line
+	7600 2400 7550 2400
+Wire Wire Line
+	7600 2500 7550 2500
+Wire Wire Line
+	7600 2600 7550 2600
+Wire Wire Line
+	7600 2700 7550 2700
+Wire Wire Line
+	7600 2800 7550 2800
 Wire Wire Line
 	7600 3100 7550 3100
 Wire Wire Line
@@ -228,7 +228,7 @@ Wire Wire Line
 Wire Wire Line
 	7600 3400 7550 3400
 Wire Wire Line
-	8500 1100 8450 1100
+	8500 2700 8450 2700
 Wire Wire Line
 	9400 3100 9350 3100
 Wire Wire Line
@@ -248,41 +248,41 @@ Wire Wire Line
 Wire Wire Line
 	9400 1000 9350 1000
 Wire Wire Line
-	9400 1100 9350 1100
+	9400 2700 9350 2700
 Wire Wire Line
-	9400 1200 9350 1200
-Wire Wire Line
-	9400 1300 9350 1300
-Wire Wire Line
-	9400 1400 9350 1400
-Wire Wire Line
-	9400 1500 9350 1500
-Wire Wire Line
-	9400 1600 9350 1600
-Wire Wire Line
-	9400 1700 9350 1700
-Wire Wire Line
-	9400 1800 9350 1800
-Wire Wire Line
-	9400 1900 9350 1900
-Wire Wire Line
-	9400 2000 9350 2000
-Wire Wire Line
-	9400 2100 9350 2100
-Wire Wire Line
-	9400 2200 9350 2200
-Wire Wire Line
-	9400 2300 9350 2300
-Wire Wire Line
-	9400 2400 9350 2400
+	9400 2800 9350 2800
 Wire Wire Line
 	9400 2500 9350 2500
 Wire Wire Line
 	9400 2600 9350 2600
 Wire Wire Line
-	9400 2700 9350 2700
+	9400 2300 9350 2300
 Wire Wire Line
-	9400 2800 9350 2800
+	9400 2400 9350 2400
+Wire Wire Line
+	9400 2100 9350 2100
+Wire Wire Line
+	9400 2200 9350 2200
+Wire Wire Line
+	9400 1900 9350 1900
+Wire Wire Line
+	9400 2000 9350 2000
+Wire Wire Line
+	9400 1700 9350 1700
+Wire Wire Line
+	9400 1800 9350 1800
+Wire Wire Line
+	9400 1500 9350 1500
+Wire Wire Line
+	9400 1600 9350 1600
+Wire Wire Line
+	9400 1300 9350 1300
+Wire Wire Line
+	9400 1400 9350 1400
+Wire Wire Line
+	9400 1100 9350 1100
+Wire Wire Line
+	9400 1200 9350 1200
 Wire Wire Line
 	9400 3200 9350 3200
 Wire Wire Line
@@ -290,7 +290,7 @@ Wire Wire Line
 Wire Wire Line
 	9400 3400 9350 3400
 Wire Wire Line
-	8500 1200 8450 1200
+	8500 2800 8450 2800
 Text Label 7550 3100 2    60   ~ 0
 VIN_RTN
 Text Label 7550 3200 2    60   ~ 0
@@ -317,84 +317,84 @@ Text Label 9350 3400 2    60   ~ 0
 VIN
 Text Label 9350 900  2    60   ~ 0
 HV_IN
-Text Label 9350 2800 2    60   ~ 0
+Text Label 9350 1200 2    60   ~ 0
 HV_OUT_RTN1
 NoConn ~ 9350 1000
-Text Label 8450 1200 2    60   ~ 0
+Text Label 8450 2800 2    60   ~ 0
 I2C_SCL9
-Text Label 8450 1100 2    60   ~ 0
+Text Label 8450 2700 2    60   ~ 0
 I2C_SDA9
-Text Label 9350 2700 2    60   ~ 0
+Text Label 9350 1100 2    60   ~ 0
 HV_OUT1
-Text Label 9350 2500 2    60   ~ 0
+Text Label 9350 1300 2    60   ~ 0
 HV_OUT2
-Text Label 9350 2300 2    60   ~ 0
+Text Label 9350 1500 2    60   ~ 0
 HV_OUT3
-Text Label 9350 2100 2    60   ~ 0
+Text Label 9350 1700 2    60   ~ 0
 HV_OUT4
 Text Label 9350 1900 2    60   ~ 0
 HV_OUT5
-Text Label 9350 1700 2    60   ~ 0
+Text Label 9350 2100 2    60   ~ 0
 HV_OUT6
-Text Label 9350 1500 2    60   ~ 0
+Text Label 9350 2300 2    60   ~ 0
 HV_OUT7
-Text Label 9350 1300 2    60   ~ 0
+Text Label 9350 2500 2    60   ~ 0
 HV_OUT8
-Text Label 9350 1100 2    60   ~ 0
+Text Label 9350 2700 2    60   ~ 0
 HV_OUT9
-Text Label 9350 2600 2    60   ~ 0
+Text Label 9350 1400 2    60   ~ 0
 HV_OUT_RTN2
-Text Label 9350 2400 2    60   ~ 0
+Text Label 9350 1600 2    60   ~ 0
 HV_OUT_RTN3
-Text Label 9350 2200 2    60   ~ 0
+Text Label 9350 1800 2    60   ~ 0
 HV_OUT_RTN4
 Text Label 9350 2000 2    60   ~ 0
 HV_OUT_RTN5
-Text Label 9350 1800 2    60   ~ 0
+Text Label 9350 2200 2    60   ~ 0
 HV_OUT_RTN6
-Text Label 9350 1600 2    60   ~ 0
+Text Label 9350 2400 2    60   ~ 0
 HV_OUT_RTN7
-Text Label 9350 1400 2    60   ~ 0
+Text Label 9350 2600 2    60   ~ 0
 HV_OUT_RTN8
-Text Label 9350 1200 2    60   ~ 0
+Text Label 9350 2800 2    60   ~ 0
 HV_OUT_RTN9
 Text Label 7550 900  2    60   ~ 0
 HV_IN_RTN
-Text Label 7550 2700 2    60   ~ 0
+Text Label 7550 1100 2    60   ~ 0
 VOUT_RTN1
-Text Label 7550 2500 2    60   ~ 0
+Text Label 7550 1300 2    60   ~ 0
 VOUT_RTN2
-Text Label 7550 2300 2    60   ~ 0
+Text Label 7550 1500 2    60   ~ 0
 VOUT_RTN3
-Text Label 7550 2100 2    60   ~ 0
+Text Label 7550 1700 2    60   ~ 0
 VOUT_RTN4
 Text Label 7550 1900 2    60   ~ 0
 VOUT_RTN5
-Text Label 7550 1700 2    60   ~ 0
+Text Label 7550 2100 2    60   ~ 0
 VOUT_RTN6
-Text Label 7550 1500 2    60   ~ 0
+Text Label 7550 2300 2    60   ~ 0
 VOUT_RTN7
-Text Label 7550 1300 2    60   ~ 0
+Text Label 7550 2500 2    60   ~ 0
 VOUT_RTN8
-Text Label 7550 1100 2    60   ~ 0
+Text Label 7550 2700 2    60   ~ 0
 VOUT_RTN9
-Text Label 7550 2800 2    60   ~ 0
+Text Label 7550 1200 2    60   ~ 0
 VOUT1
-Text Label 7550 2600 2    60   ~ 0
+Text Label 7550 1400 2    60   ~ 0
 VOUT2
-Text Label 7550 2400 2    60   ~ 0
+Text Label 7550 1600 2    60   ~ 0
 VOUT3
-Text Label 7550 2200 2    60   ~ 0
+Text Label 7550 1800 2    60   ~ 0
 VOUT4
 Text Label 7550 2000 2    60   ~ 0
 VOUT5
-Text Label 7550 1800 2    60   ~ 0
+Text Label 7550 2200 2    60   ~ 0
 VOUT6
-Text Label 7550 1600 2    60   ~ 0
+Text Label 7550 2400 2    60   ~ 0
 VOUT7
-Text Label 7550 1400 2    60   ~ 0
+Text Label 7550 2600 2    60   ~ 0
 VOUT8
-Text Label 7550 1200 2    60   ~ 0
+Text Label 7550 2800 2    60   ~ 0
 VOUT9
 Wire Wire Line
 	1200 850  1150 850 
@@ -814,68 +814,68 @@ coil
 Text Label 8450 3900 2    60   ~ 0
 coil
 Wire Wire Line
-	8500 1300 8450 1300
+	8500 2500 8450 2500
 Wire Wire Line
-	8500 1400 8450 1400
-Wire Wire Line
-	8500 1500 8450 1500
-Wire Wire Line
-	8500 1600 8450 1600
-Wire Wire Line
-	8500 1700 8450 1700
-Wire Wire Line
-	8500 1800 8450 1800
-Wire Wire Line
-	8500 1900 8450 1900
-Wire Wire Line
-	8500 2000 8450 2000
-Wire Wire Line
-	8500 2100 8450 2100
-Wire Wire Line
-	8500 2200 8450 2200
+	8500 2600 8450 2600
 Wire Wire Line
 	8500 2300 8450 2300
 Wire Wire Line
 	8500 2400 8450 2400
 Wire Wire Line
-	8500 2500 8450 2500
+	8500 2100 8450 2100
 Wire Wire Line
-	8500 2600 8450 2600
+	8500 2200 8450 2200
 Wire Wire Line
-	8500 2700 8450 2700
+	8500 1900 8450 1900
 Wire Wire Line
-	8500 2800 8450 2800
-Text Label 8450 2800 2    60   ~ 0
+	8500 2000 8450 2000
+Wire Wire Line
+	8500 1700 8450 1700
+Wire Wire Line
+	8500 1800 8450 1800
+Wire Wire Line
+	8500 1500 8450 1500
+Wire Wire Line
+	8500 1600 8450 1600
+Wire Wire Line
+	8500 1300 8450 1300
+Wire Wire Line
+	8500 1400 8450 1400
+Wire Wire Line
+	8500 1100 8450 1100
+Wire Wire Line
+	8500 1200 8450 1200
+Text Label 8450 1200 2    60   ~ 0
 I2C_SCL1
-Text Label 8450 2600 2    60   ~ 0
+Text Label 8450 1400 2    60   ~ 0
 I2C_SCL2
-Text Label 8450 2400 2    60   ~ 0
+Text Label 8450 1600 2    60   ~ 0
 I2C_SCL3
-Text Label 8450 2200 2    60   ~ 0
+Text Label 8450 1800 2    60   ~ 0
 I2C_SCL4
 Text Label 8450 2000 2    60   ~ 0
 I2C_SCL5
-Text Label 8450 1800 2    60   ~ 0
+Text Label 8450 2200 2    60   ~ 0
 I2C_SCL6
-Text Label 8450 1600 2    60   ~ 0
+Text Label 8450 2400 2    60   ~ 0
 I2C_SCL7
-Text Label 8450 1400 2    60   ~ 0
+Text Label 8450 2600 2    60   ~ 0
 I2C_SCL8
-Text Label 8450 2700 2    60   ~ 0
+Text Label 8450 1100 2    60   ~ 0
 I2C_SDA1
-Text Label 8450 2500 2    60   ~ 0
+Text Label 8450 1300 2    60   ~ 0
 I2C_SDA2
-Text Label 8450 2300 2    60   ~ 0
+Text Label 8450 1500 2    60   ~ 0
 I2C_SDA3
-Text Label 8450 2100 2    60   ~ 0
+Text Label 8450 1700 2    60   ~ 0
 I2C_SDA4
 Text Label 8450 1900 2    60   ~ 0
 I2C_SDA5
-Text Label 8450 1700 2    60   ~ 0
+Text Label 8450 2100 2    60   ~ 0
 I2C_SDA6
-Text Label 8450 1500 2    60   ~ 0
+Text Label 8450 2300 2    60   ~ 0
 I2C_SDA7
-Text Label 8450 1300 2    60   ~ 0
+Text Label 8450 2500 2    60   ~ 0
 I2C_SDA8
 $Comp
 L CONN_03X32 J1

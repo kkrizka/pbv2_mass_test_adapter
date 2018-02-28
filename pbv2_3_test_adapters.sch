@@ -240,9 +240,9 @@ Wire Wire Line
 Wire Wire Line
 	8400 3400 8500 3400
 Wire Wire Line
-	8500 3900 8450 3900
+	7600 3900 7550 3900
 Wire Wire Line
-	8500 4000 8450 4000
+	7600 4000 7550 4000
 Wire Wire Line
 	9400 900  9350 900 
 Wire Wire Line
@@ -809,9 +809,9 @@ Text Label 5350 5500 0    60   ~ 0
 HV_OUT_RTN7
 Text Label 5350 7300 0    60   ~ 0
 HV_OUT_RTN8
-Text Label 8450 4000 2    60   ~ 0
+Text Label 7550 4000 2    60   ~ 0
 coil
-Text Label 8450 3900 2    60   ~ 0
+Text Label 7550 3900 2    60   ~ 0
 coil
 Wire Wire Line
 	8500 2500 8450 2500
@@ -891,29 +891,77 @@ F 3 "" H 7800 2550 50  0001 C CNN
 	1    8700 2500
 	1    0    0    -1  
 $EndComp
-NoConn ~ 8500 2900
-NoConn ~ 8500 3000
-NoConn ~ 8500 3500
-NoConn ~ 8500 3600
-NoConn ~ 8500 3700
-NoConn ~ 8500 3800
-NoConn ~ 7600 2900
-NoConn ~ 7600 3000
-NoConn ~ 7600 3500
-NoConn ~ 7600 3600
-NoConn ~ 7600 3700
-NoConn ~ 7600 3800
-NoConn ~ 7600 3900
-NoConn ~ 7600 4000
-NoConn ~ 9400 2900
-NoConn ~ 9400 3000
-NoConn ~ 9400 3500
-NoConn ~ 9400 3600
-NoConn ~ 9400 3700
-NoConn ~ 9400 3800
-NoConn ~ 9400 3900
-NoConn ~ 9400 4000
 NoConn ~ 8500 900 
 NoConn ~ 8500 1000
 NoConn ~ 7600 1000
+Wire Wire Line
+	7600 3500 7550 3500
+Wire Wire Line
+	7600 3600 7550 3600
+Wire Wire Line
+	9400 3500 9350 3500
+Wire Wire Line
+	8500 3500 8450 3500
+Wire Wire Line
+	8500 3600 8450 3600
+Wire Wire Line
+	9400 3600 9350 3600
+Text Label 7550 3500 2    60   ~ 0
+VIN_RTN
+Text Label 7550 3600 2    60   ~ 0
+VIN_RTN
+Text Label 9350 3500 2    60   ~ 0
+VIN_RTN
+Text Label 8450 3500 2    60   ~ 0
+VIN_RTN
+Text Label 9350 3600 2    60   ~ 0
+VIN_RTN
+Text Label 8450 3600 2    60   ~ 0
+VIN_RTN
+Wire Wire Line
+	7600 3700 7550 3700
+Wire Wire Line
+	7600 3800 7550 3800
+Wire Wire Line
+	9400 3700 9350 3700
+Wire Wire Line
+	8500 3700 8450 3700
+Wire Wire Line
+	8500 3800 8450 3800
+Wire Wire Line
+	9400 3800 9350 3800
+Text Label 7550 3700 2    60   ~ 0
+VIN_RTN
+Text Label 7550 3800 2    60   ~ 0
+VIN_RTN
+Text Label 9350 3700 2    60   ~ 0
+VIN_RTN
+Text Label 8450 3700 2    60   ~ 0
+VIN_RTN
+Text Label 9350 3800 2    60   ~ 0
+VIN_RTN
+Text Label 8450 3800 2    60   ~ 0
+VIN_RTN
+Wire Wire Line
+	9400 3900 9350 3900
+Wire Wire Line
+	8500 3900 8450 3900
+Wire Wire Line
+	8500 4000 8450 4000
+Wire Wire Line
+	9400 4000 9350 4000
+Text Label 9350 3900 2    60   ~ 0
+VIN_RTN
+Text Label 8450 3900 2    60   ~ 0
+VIN_RTN
+Text Label 9350 4000 2    60   ~ 0
+VIN_RTN
+Text Label 8450 4000 2    60   ~ 0
+VIN_RTN
+NoConn ~ 9400 3000
+NoConn ~ 9400 2900
+NoConn ~ 8500 3000
+NoConn ~ 8500 2900
+NoConn ~ 7600 3000
+NoConn ~ 7600 2900
 $EndSCHEMATC

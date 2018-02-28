@@ -293,7 +293,7 @@ def place_instances(mainref, pitch, rowmax=1000, rowsize=4.0):
                            int(newposition[1] + col*pitch[1] + row*rowsize))
 
             peerref.SetPosition(pcbnew.wxPoint(*newposition))
-            peerref.SetOrientation(basepositions[childid][2])
+            peerref.SetOrientation(baserefpositions[childid][2])
             
         #copy the nets
         for fromnetid, fromnet in sheetinstance.internalnets.items():
